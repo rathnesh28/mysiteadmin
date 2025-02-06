@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/coupon.module.css"],"sourcesContent":["/* coupon.module.css */\r\n.container {\r\n    margin-top: 20px;\r\n  }\r\n  \r\n  .pageTitle {\r\n    text-align: center;\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .searchActions {\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .searchInput {\r\n    padding: 8px;\r\n  }\r\n  \r\n  .addButton {\r\n    background-color: #ff6b81;\r\n    color: white;\r\n  }\r\n  \r\n  .addButton:hover {\r\n    background-color: #ff4e63;\r\n  }\r\n  \r\n  .table {\r\n    margin-top: 20px;\r\n  }\r\n  \r\n  .table th,\r\n  .table td {\r\n    text-align: center;\r\n  }\r\n  \r\n  .editButton {\r\n    background-color: #17a2b8;\r\n    color: white;\r\n  }\r\n  \r\n  .editButton:hover {\r\n    background-color: #138496;\r\n  }\r\n  \r\n  .deleteButton {\r\n    background-color: #dc3545;\r\n    color: white;\r\n  }\r\n  \r\n  .deleteButton:hover {\r\n    background-color: #c82333;\r\n  }\r\n  \r\n  .modalBody input,\r\n  .modalBody select {\r\n    width: 100%;\r\n    margin-bottom: 15px;\r\n    padding: 8px;\r\n  }\r\n  "],"names":[],"mappings":"AACA,kDAIE,sGAOA,yDAIA,gDAIA,sEAKA,iEAIA,8CAIA,oFAKA,uEAKA,kEAIA,yEAKA,oEAIA"}},
+    {"offset": {"line": 1, "column": 923}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

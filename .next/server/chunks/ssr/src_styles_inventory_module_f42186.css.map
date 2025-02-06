@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/inventory.module.css"],"sourcesContent":[".pageTitle {\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .customModal .modal-content {\r\n    border-radius: 20px;\r\n    padding: 20px;\r\n    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);\r\n    border: none;\r\n  }\r\n  \r\n  .customModal .modal-header {\r\n    background-color: #f8f9fa;\r\n    border-bottom: none;\r\n    padding-bottom: 0;\r\n  }\r\n  \r\n  .customModal .modal-title {\r\n    font-size: 20px;\r\n    font-weight: 600;\r\n  }\r\n  \r\n  .customModal .modal-body input,\r\n  .customModal .modal-body select {\r\n    border-radius: 8px;\r\n  }\r\n  \r\n  .customModal .modal-footer {\r\n    border-top: none;\r\n    padding-top: 0;\r\n  }\r\n  \r\n  .modal-dialog-centered {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    min-height: 100vh;\r\n  }\r\n  \r\n  .modalButtonPrimary {\r\n    background-color: #ff6b81 !important;\r\n    border-color: #ff6b81 !important;\r\n    color: #fff !important;\r\n  }\r\n  \r\n  .modalButtonPrimary:hover {\r\n    background-color: #e85a70 !important;\r\n    border-color: #e85a70 !important;\r\n  }\r\n  "],"names":[],"mappings":"AAAA,uFAME,wJAOA,4IAMA,6GAKA,yLAKA,6GAKA,yHAOA,qIAMA"}},
+    {"offset": {"line": 1, "column": 1154}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

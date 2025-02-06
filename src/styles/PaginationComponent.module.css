@@ -1,0 +1,83 @@
+.paginationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+  }
+  
+  .rangeDisplay {
+    color: #555;
+  }
+  
+  .paginationControls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0f0f0;
+     border-radius: 50px;
+     padding: 2px 0;
+   
+  }
+  
+  .pageButton,
+  .pageNumber {
+    border: none;
+    background: transparent;
+    color: #272727;
+    padding: 6px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .pageButton:hover,
+.pageNumber:hover {
+  background-color: #ea75a7c4;
+  color: #000000;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out; /* Smooth hover animation */
+}
+
+.pageNumber.active {
+  background-color: #cc0991dc;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(214, 214, 214, 0.792);
+  transform: scale(1); /* Default scale for active */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.pageNumber.active:hover {
+  background-color: rgba(204, 9, 145, 0.6);
+  color: #ffffff;
+  transform: scale(0.8); /* Shrinks on hover */
+  box-shadow: 0px 4px 8px rgba(214, 214, 214, 0.792); /* Keeps the shadow */
+}
+
+  
+  .pageButton.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pageButton.disabled:hover {
+    background: none;
+  }
+  
+  .pageNumbers {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pageNumbers > .pageNumber {
+    min-width: 36px;
+    text-align: center;
+  }
+  

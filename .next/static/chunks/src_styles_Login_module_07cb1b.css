@@ -1,0 +1,110 @@
+/* [project]/src/styles/Login.module.css [client] (css) */
+.Login-module__nHqgcW__loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffe6eb, #f9d4da);
+  padding: 1rem;
+}
+
+.Login-module__nHqgcW__loginCard {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px #0003;
+  max-width: 400px;
+  width: 100%;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.Login-module__nHqgcW__loginCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px #0000004d;
+}
+
+.Login-module__nHqgcW__logo img {
+  display: block;
+  margin: 0 auto 1rem;
+  height: 80px;
+}
+
+.Login-module__nHqgcW__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b81;
+  margin-bottom: 1rem;
+}
+
+.Login-module__nHqgcW__subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.Login-module__nHqgcW__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login-module__nHqgcW__inputGroup {
+  margin-bottom: 1.25rem;
+}
+
+.Login-module__nHqgcW__inputGroup label {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .9rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.Login-module__nHqgcW__inputGroup input {
+  width: 100%;
+  padding: .75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: .95rem;
+  transition: border-color .2s;
+}
+
+.Login-module__nHqgcW__inputGroup input:focus {
+  border-color: #ff6b81;
+  outline: none;
+}
+
+.Login-module__nHqgcW__loginButton {
+  background: #ff6b81;
+  color: #fff;
+  padding: .75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background .2s, transform .2s;
+}
+
+.Login-module__nHqgcW__loginButton:hover {
+  background: #e04f72;
+  transform: translateY(-3px);
+}
+
+.Login-module__nHqgcW__footer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.Login-module__nHqgcW__footer a {
+  color: #ff6b81;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Login-module__nHqgcW__footer a:hover {
+  text-decoration: underline;
+}
+
+
+/*# sourceMappingURL=src_styles_Login_module_07cb1b.css.map*/

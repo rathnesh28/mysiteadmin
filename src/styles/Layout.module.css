@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column; /* Stacks header and content vertically */
+  flex-grow: 1; /* Ensures this area expands */
+  transition: all 0.3s ease-in-out;
+  min-height: 100vh;
+}
+
+.mainContentExpanded {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.sidebarCollapsed .mainContent {
+  margin-left: 0;
+  width: 100%;
+}
+
+.content {
+  flex-grow: 1; /* Ensures content fills remaining vertical space */
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}

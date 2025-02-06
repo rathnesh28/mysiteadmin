@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/Layout.module.css"],"sourcesContent":[".layout {\r\n    display: flex;\r\n  }\r\n  \r\n  .mainContent {\r\n    margin-left: 250px;\r\n    width: calc(100% - 250px);\r\n  }\r\n  \r\n  .sidebarCollapsed .mainContent {\r\n    margin-left: 80px;\r\n    width: calc(100% - 80px);\r\n  }\r\n  \r\n  .content {\r\n    padding: 20px;\r\n  }\r\n  "],"names":[],"mappings":"AAAA;;;;AAIE;;;;;AAKA;;;;;AAKA"}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

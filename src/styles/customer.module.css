@@ -1,0 +1,54 @@
+.pageTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .customModal .modal-content {
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+  
+  .customModal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .customModal .modal-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .customModal .modal-body input,
+  .customModal .modal-body select {
+    border-radius: 8px;
+  }
+  
+  .customModal .modal-footer {
+    border-top: none;
+    padding-top: 0;
+  }
+  
+  /* Center Modal */
+  .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures modal stays centered on smaller screens */
+  }
+  
+  /* Button Colors */
+  .modalButtonPrimary {
+    background-color: #ff6b81 !important; /* Apply your desired color */
+    border-color: #ff6b81 !important;
+    color: #fff !important;
+  }
+  
+  .modalButtonPrimary:hover {
+    background-color: #e85a70 !important; /* Darker shade for hover effect */
+    border-color: #e85a70 !important;
+  }
+  

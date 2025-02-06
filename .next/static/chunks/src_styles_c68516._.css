@@ -1,0 +1,91 @@
+/* [project]/src/styles/Sidebar.module.css [client] (css) */
+.Sidebar-module__HPbxHa__sidebar {
+  background-color: #1f1f2f;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all .3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar-module__HPbxHa__collapsed {
+  width: 80px;
+}
+
+.Sidebar-module__HPbxHa__logo {
+  padding: 20px;
+  text-align: center;
+}
+
+.Sidebar-module__HPbxHa__logo img {
+  width: 40px;
+}
+
+.Sidebar-module__HPbxHa__navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Sidebar-module__HPbxHa__navItem {
+  margin: 0;
+}
+
+.Sidebar-module__HPbxHa__navLink {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s;
+}
+
+.Sidebar-module__HPbxHa__navLink:hover {
+  background-color: #444;
+}
+
+.Sidebar-module__HPbxHa__navLink span {
+  margin-left: 10px;
+}
+
+.Sidebar-module__HPbxHa__collapsed .Sidebar-module__HPbxHa__navLink span {
+  display: none;
+}
+
+.Sidebar-module__HPbxHa__toggleButton {
+  background-color: #0000;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+
+/* [project]/src/styles/Layout.module.css [client] (css) */
+.Layout-module__zaQHFq__layout {
+  display: flex;
+}
+
+.Layout-module__zaQHFq__mainContent {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  transition: all .3s;
+}
+
+.Layout-module__zaQHFq__sidebarCollapsed .Layout-module__zaQHFq__mainContent {
+  margin-left: 0;
+  width: 100%;
+}
+
+.Layout-module__zaQHFq__content {
+  padding: 20px;
+}
+
+
+/*# sourceMappingURL=src_styles_c68516._.css.map*/

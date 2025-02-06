@@ -1,0 +1,3 @@
+/* [project]/src/styles/Layout.module.css [ssr] (css) */
+.Layout-module__zaQHFq__layout{display:flex;min-height:100vh}.Layout-module__zaQHFq__mainContent{display:flex;flex-direction:column;flex-grow:1;transition:all .3s ease-in-out;min-height:100vh}.Layout-module__zaQHFq__mainContentExpanded{margin-left:250px;width:calc(100% - 250px)}.Layout-module__zaQHFq__sidebarCollapsed .Layout-module__zaQHFq__mainContent{margin-left:0;width:100%}.Layout-module__zaQHFq__content{flex-grow:1;padding:20px;box-sizing:border-box;margin-top:50px}
+/*# sourceMappingURL=src_styles_Layout_module_f42186.css.map*/

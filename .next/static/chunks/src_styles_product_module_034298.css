@@ -1,0 +1,64 @@
+/* [project]/src/styles/product.module.css [client] (css) */
+.product-module__XzZD-G__container {
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-module__XzZD-G__pageTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-module__XzZD-G__table {
+  margin-top: 20px;
+}
+
+.product-module__XzZD-G__table th, .product-module__XzZD-G__table td {
+  text-align: center;
+}
+
+.product-module__XzZD-G__buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-module__XzZD-G__actionButton {
+  font-size: 12px;
+}
+
+.product-module__XzZD-G__actionButton + .product-module__XzZD-G__actionButton {
+  margin-left: 5px;
+}
+
+.product-module__XzZD-G__statusBadge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.product-module__XzZD-G__statusBadge.product-module__XzZD-G__active {
+  background-color: #28a745;
+}
+
+.product-module__XzZD-G__statusBadge.product-module__XzZD-G__inactive {
+  background-color: #dc3545;
+}
+
+.product-module__XzZD-G__modalForm {
+  padding: 20px;
+}
+
+.product-module__XzZD-G__modalForm input, .product-module__XzZD-G__modalForm select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+
+/*# sourceMappingURL=src_styles_product_module_034298.css.map*/

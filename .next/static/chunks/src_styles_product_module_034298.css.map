@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/product.module.css"],"sourcesContent":["/* Simplified CSS */\r\n.container {\r\n  margin-top: 20px;\r\n  max-width: 800px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.pageTitle {\r\n  text-align: center;\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.table {\r\n  margin-top: 20px;\r\n}\r\n\r\n.table th, .table td {\r\n  text-align: center;\r\n}\r\n\r\n.buttonGroup {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.actionButton {\r\n  font-size: 12px;\r\n}\r\n\r\n.actionButton + .actionButton {\r\n  margin-left: 5px;\r\n}\r\n\r\n.statusBadge {\r\n  padding: 5px 10px;\r\n  border-radius: 5px;\r\n  font-size: 14px;\r\n  color: white;\r\n}\r\n\r\n.statusBadge.active {\r\n  background-color: #28a745;\r\n}\r\n\r\n.statusBadge.inactive {\r\n  background-color: #dc3545;\r\n}\r\n\r\n.modalForm {\r\n  padding: 20px;\r\n}\r\n\r\n.modalForm input, .modalForm select {\r\n  width: 100%;\r\n  margin-bottom: 15px;\r\n  padding: 8px;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;AAOA;;;;;;;AAOA;;;;AAIA;;;;AAIA;;;;;;AAMA;;;;AAIA;;;;AAIA;;;;;;;AAOA;;;;AAIA;;;;AAIA;;;;AAIA"}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

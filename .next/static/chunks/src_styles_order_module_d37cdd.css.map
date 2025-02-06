@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/order.module.css"],"sourcesContent":["/* Local class-based styling */\r\n.table {\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n  }\r\n  \r\n  .table th, .table td {\r\n    text-align: center;\r\n    padding: 10px;\r\n  }\r\n  \r\n  .table thead {\r\n    background-color: #f8f9fa;\r\n  }\r\n  \r\n  .table tr:nth-child(even) {\r\n    background-color: #f2f2f2;\r\n  }\r\n  \r\n  .table td {\r\n    vertical-align: middle;\r\n  }\r\n  \r\n  .badge {\r\n    font-size: 14px;\r\n  }\r\n  \r\n  .btn-info {\r\n    font-size: 12px;\r\n  }\r\n  \r\n  .btn-sm {\r\n    font-size: 14px;\r\n  }\r\n  \r\n  .heading {\r\n    color: #333;\r\n  }\r\n  \r\n  .mt-5 {\r\n    margin-top: 50px;\r\n  }\r\n  \r\n  .mb-4 {\r\n    margin-bottom: 30px;\r\n  }\r\n  "],"names":[],"mappings":"AACA;;;;;AAKE;;;;;AAKA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

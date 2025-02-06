@@ -1,0 +1,87 @@
+/* [project]/src/styles/Header.module.css [client] (css) */
+.Header-module__KppamW__navbar {
+  background-color: #1f1f2f;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.Header-module__KppamW__logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.Header-module__KppamW__logoImg {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Header-module__KppamW__searchForm {
+  width: 50%;
+  max-width: 400px;
+}
+
+.Header-module__KppamW__searchInput {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #555;
+  background-color: #2c2c3a;
+  color: #fff;
+}
+
+.Header-module__KppamW__searchInput::placeholder {
+  color: #aaa;
+}
+
+.Header-module__KppamW__searchButton {
+  border: none;
+  background-color: #444;
+  color: #fff;
+  padding: .5rem 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.Header-module__KppamW__searchButton:hover {
+  background-color: #17a2b8;
+}
+
+.Header-module__KppamW__navIcon {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-left: 20px;
+  position: relative;
+}
+
+.Header-module__KppamW__navIcon:hover {
+  color: #17a2b8;
+}
+
+.Header-module__KppamW__badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #dc3545;
+  color: #fff;
+  font-size: .75rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.Header-module__KppamW__profileToggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Header-module__KppamW__profileIcon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.Header-module__KppamW__profileIcon:hover {
+  color: #17a2b8;
+}
+
+
+/*# sourceMappingURL=src_styles_Header_module_ef05fe.css.map*/

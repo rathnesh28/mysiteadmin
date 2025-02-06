@@ -1,0 +1,58 @@
+/* [project]/src/styles/Header.module.css [client] (css) */
+.Header-module__KppamW__navbar {
+  background-color: #1f1f2f;
+  height: 70px;
+  width: 100%;
+  transition: background-color .3s, height .3s, width .3s;
+}
+
+.Header-module__KppamW__navbarLarge {
+  background-color: #007bff;
+  height: 70px;
+}
+
+.Header-module__KppamW__navbarSmall {
+  background-color: #1f1f2f;
+  height: 50px;
+}
+
+.Header-module__KppamW__logo {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.Header-module__KppamW__logoImg {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.Header-module__KppamW__navIcon {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+
+/* [project]/src/styles/Layout.module.css [client] (css) */
+.Layout-module__zaQHFq__layout {
+  display: flex;
+}
+
+.Layout-module__zaQHFq__mainContent {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.Layout-module__zaQHFq__sidebarCollapsed .Layout-module__zaQHFq__mainContent {
+  margin-left: 80px;
+  width: calc(100% - 80px);
+}
+
+.Layout-module__zaQHFq__content {
+  padding: 20px;
+}
+
+
+/*# sourceMappingURL=src_styles_0d454f._.css.map*/

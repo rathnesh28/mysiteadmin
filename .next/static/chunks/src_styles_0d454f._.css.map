@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/Header.module.css"],"sourcesContent":["/* Navbar */\r\n.navbar {\r\n  background-color: #1f1f2f; /* Default dark navbar */\r\n  height: 70px; /* Full height when sidebar is expanded */\r\n  width: 100%; /* Full width by default */\r\n  transition: background-color 0.3s, height 0.3s, width 0.3s; /* Transition for width */\r\n}\r\n.navbarLarge {\r\n  background-color: #007bff; /* Large navbar background color */\r\n  height: 70px; /* Large navbar height */\r\n}\r\n\r\n.navbarSmall {\r\n  background-color: #1f1f2f; /* Smaller navbar background color */\r\n  height: 50px; /* Smaller navbar height */\r\n}\r\n\r\n/* Logo */\r\n.logo {\r\n  font-size: 1.5rem;\r\n  color: white;\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.logoImg {\r\n  width: 40px;\r\n  margin-right: 10px;\r\n}\r\n\r\n.navIcon {\r\n  color: white;\r\n  font-size: 1.2rem;\r\n  margin-left: 20px;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;AAMA;;;;;AAKA;;;;;AAMA;;;;;;;AAOA;;;;;AAKA"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/Layout.module.css"],"sourcesContent":[".layout {\r\n    display: flex;\r\n  }\r\n  \r\n  .mainContent {\r\n    margin-left: 250px;\r\n    width: calc(100% - 250px);\r\n  }\r\n  \r\n  .sidebarCollapsed .mainContent {\r\n    margin-left: 80px;\r\n    width: calc(100% - 80px);\r\n  }\r\n  \r\n  .content {\r\n    padding: 20px;\r\n  }\r\n  "],"names":[],"mappings":"AAAA;;;;AAIE;;;;;AAKA;;;;;AAKA"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

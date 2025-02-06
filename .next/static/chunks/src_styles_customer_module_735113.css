@@ -1,0 +1,53 @@
+/* [project]/src/styles/customer.module.css [client] (css) */
+.customer-module__eEck5G__pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.customer-module__eEck5G__customModal .customer-module__eEck5G__modal-content {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 16px #0003;
+  border: none;
+}
+
+.customer-module__eEck5G__customModal .customer-module__eEck5G__modal-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.customer-module__eEck5G__customModal .customer-module__eEck5G__modal-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.customer-module__eEck5G__customModal .customer-module__eEck5G__modal-body input, .customer-module__eEck5G__customModal .customer-module__eEck5G__modal-body select {
+  border-radius: 8px;
+}
+
+.customer-module__eEck5G__customModal .customer-module__eEck5G__modal-footer {
+  border-top: none;
+  padding-top: 0;
+}
+
+.customer-module__eEck5G__modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.customer-module__eEck5G__modalButtonPrimary {
+  background-color: #ff6b81 !important;
+  border-color: #ff6b81 !important;
+  color: #fff !important;
+}
+
+.customer-module__eEck5G__modalButtonPrimary:hover {
+  background-color: #e85a70 !important;
+  border-color: #e85a70 !important;
+}
+
+/*# sourceMappingURL=src_styles_customer_module_735113.css.map*/

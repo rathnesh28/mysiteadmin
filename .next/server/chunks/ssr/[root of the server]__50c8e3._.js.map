@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/pages/_app.js"],"sourcesContent":["import \"@/styles/globals.css\"; // Global styles\r\nimport \"bootstrap/dist/css/bootstrap.min.css\"; // Bootstrap styles\r\nimport { useEffect } from \"react\";\r\n\r\nexport default function App({ Component, pageProps }) {\r\n  useEffect(() => {\r\n    require(\"bootstrap/dist/js/bootstrap.bundle.min.js\"); // Ensure Bootstrap JS loads properly\r\n  }, []);\r\n\r\n  return <Component {...pageProps} />;\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,CAAA,GAAA,mGAAA,CAAA,YAAS,AAAD,EAAE;oJAC8C,qCAAqC;IAC7F,GAAG,EAAE;IAEL,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

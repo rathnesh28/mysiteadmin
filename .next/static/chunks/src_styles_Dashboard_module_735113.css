@@ -1,0 +1,82 @@
+/* [project]/src/styles/Dashboard.module.css [client] (css) */
+.Dashboard-module__5cuSHa__dashboard {
+  padding: 20px;
+}
+
+.Dashboard-module__5cuSHa__statCard {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+  transition: transform .3s;
+}
+
+.Dashboard-module__5cuSHa__statCard:hover {
+  transform: translateY(-5px);
+}
+
+.Dashboard-module__5cuSHa__iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.Dashboard-module__5cuSHa__icon {
+  font-size: 30px;
+}
+
+.Dashboard-module__5cuSHa__cardTitle {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #c01a65e3;
+}
+
+.Dashboard-module__5cuSHa__cardValue {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #555;
+}
+
+.Dashboard-module__5cuSHa__chartCard {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+  padding: 20px;
+}
+
+.Dashboard-module__5cuSHa__cardTitle {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.Dashboard-module__5cuSHa__gradient-card {
+  background: linear-gradient(45deg, #36a2eb, #4caf50);
+  color: #fff;
+  border: none;
+}
+
+.Dashboard-module__5cuSHa__icon-large {
+  font-size: 2rem;
+}
+
+.Dashboard-module__5cuSHa__order-item, .Dashboard-module__5cuSHa__product-item, .Dashboard-module__5cuSHa__customer-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Dashboard-module__5cuSHa__order-item:hover, .Dashboard-module__5cuSHa__product-item:hover, .Dashboard-module__5cuSHa__customer-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.Dashboard-module__5cuSHa__product-item .Dashboard-module__5cuSHa__text-warning {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=src_styles_Dashboard_module_735113.css.map*/

@@ -1,0 +1,54 @@
+/* [project]/src/styles/ProductEditPage.module.css [client] (css) */
+.ProductEditPage-module__JQPX6q__pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ProductEditPage-module__JQPX6q__innerCard {
+  background-color: #212020;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px #0000001a;
+  padding: 30px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.ProductEditPage-module__JQPX6q__cardContainer {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px #0000001a;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ProductEditPage-module__JQPX6q__card-body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductEditPage-module__JQPX6q__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.ProductEditPage-module__JQPX6q__imageUploadBox {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.ProductEditPage-module__JQPX6q__imageUploadBox img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+/*# sourceMappingURL=src_styles_ProductEditPage_module_146129.css.map*/

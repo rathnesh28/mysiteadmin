@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://G%3A/ecommerce-app/trendytie-admin/src/styles/category.module.css"],"sourcesContent":["/* Page Title */\r\n.pageTitle {\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n    color: #ff6b81;\r\n  }\r\n  \r\n  /* Form Styles */\r\n  .formContainer {\r\n    background-color: #f8f9fa;\r\n    padding: 20px;\r\n    border-radius: 8px;\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\r\n  }\r\n  \r\n  /* Scoped Buttons */\r\n  .formContainer .submitButton {\r\n    background-color: #28a745;\r\n    color: white;\r\n    padding: 10px 20px;\r\n    font-size: 1rem;\r\n    border-radius: 5px;\r\n    border: none;\r\n  }\r\n  \r\n  .formContainer .submitButton:hover {\r\n    background-color: #218838;\r\n  }\r\n  \r\n  .formContainer .resetButton {\r\n    background-color: #ff6b81;\r\n    color: white;\r\n    padding: 10px 20px;\r\n    font-size: 1rem;\r\n    border-radius: 5px;\r\n    border: none;\r\n  }\r\n  \r\n  .formContainer .resetButton:hover {\r\n    background-color: #ff416c;\r\n  }\r\n  "],"names":[],"mappings":"AACA;;;;;;AAOE;;;;;;;AAQA;;;;;;;;;AASA;;;;AAIA;;;;;;;;;AASA"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

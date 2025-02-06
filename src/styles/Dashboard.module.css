@@ -1,0 +1,89 @@
+.dashboard {
+  padding: 20px;
+}
+
+/* Card Styles */
+.statCard {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon Wrapper */
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+}
+
+/* Icon Style */
+.icon {
+  font-size: 30px;
+}
+
+/* Card Content */
+.cardTitle {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #c01a65e3;
+}
+
+.cardValue {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #555;
+}
+
+.chartCard {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+
+.cardTitle {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.gradient-card {
+  background: linear-gradient(45deg, #36A2EB, #4CAF50);
+  color: #fff;
+  border: none;
+}
+
+.icon-large {
+  font-size: 2rem;
+}
+
+.order-item,
+.product-item,
+.customer-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.order-item:hover,
+.product-item:hover,
+.customer-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.product-item .text-warning {
+  font-size: 1.5rem;
+}
+

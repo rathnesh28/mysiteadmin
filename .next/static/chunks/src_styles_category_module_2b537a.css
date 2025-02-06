@@ -1,0 +1,42 @@
+/* [project]/src/styles/category.module.css [client] (css) */
+.category-module__hsh_yW__pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff6b81;
+}
+
+.category-module__hsh_yW__formContainer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.category-module__hsh_yW__formContainer .category-module__hsh_yW__submitButton {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.category-module__hsh_yW__formContainer .category-module__hsh_yW__submitButton:hover {
+  background-color: #218838;
+}
+
+.category-module__hsh_yW__formContainer .category-module__hsh_yW__resetButton {
+  background-color: #ff6b81;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.category-module__hsh_yW__formContainer .category-module__hsh_yW__resetButton:hover {
+  background-color: #ff416c;
+}
+
+
+/*# sourceMappingURL=src_styles_category_module_2b537a.css.map*/

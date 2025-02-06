@@ -1,0 +1,63 @@
+/* coupon.module.css */
+.container {
+    margin-top: 20px;
+  }
+  
+  .pageTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .searchActions {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 8px;
+  }
+  
+  .addButton {
+    background-color: #ff6b81;
+    color: white;
+  }
+  
+  .addButton:hover {
+    background-color: #ff4e63;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  
+  .editButton {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #138496;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  .modalBody input,
+  .modalBody select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  

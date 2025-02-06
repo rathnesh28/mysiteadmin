@@ -1,0 +1,49 @@
+/* [project]/src/styles/order.module.css [client] (css) */
+.order-module___NpaPW__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.order-module___NpaPW__table th, .order-module___NpaPW__table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.order-module___NpaPW__table thead {
+  background-color: #f8f9fa;
+}
+
+.order-module___NpaPW__table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+.order-module___NpaPW__table td {
+  vertical-align: middle;
+}
+
+.order-module___NpaPW__badge {
+  font-size: 14px;
+}
+
+.order-module___NpaPW__btn-info {
+  font-size: 12px;
+}
+
+.order-module___NpaPW__btn-sm {
+  font-size: 14px;
+}
+
+.order-module___NpaPW__heading {
+  color: #333;
+}
+
+.order-module___NpaPW__mt-5 {
+  margin-top: 50px;
+}
+
+.order-module___NpaPW__mb-4 {
+  margin-bottom: 30px;
+}
+
+
+/*# sourceMappingURL=src_styles_order_module_d37cdd.css.map*/

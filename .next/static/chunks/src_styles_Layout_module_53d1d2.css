@@ -1,0 +1,21 @@
+/* [project]/src/styles/Layout.module.css [client] (css) */
+.Layout-module__zaQHFq__layout {
+  display: flex;
+}
+
+.Layout-module__zaQHFq__mainContent {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.Layout-module__zaQHFq__sidebarCollapsed .Layout-module__zaQHFq__mainContent {
+  margin-left: 80px;
+  width: calc(100% - 80px);
+}
+
+.Layout-module__zaQHFq__content {
+  padding: 20px;
+}
+
+
+/*# sourceMappingURL=src_styles_Layout_module_53d1d2.css.map*/

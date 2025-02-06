@@ -1,0 +1,99 @@
+/* category.module.css */
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tableHeader th {
+  cursor: pointer;
+  user-select: none;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 12px;
+}
+
+.statusBadge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.statusBadge.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.statusBadge.inactive {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.actionButton {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.modalBody {
+  padding: 1.5rem;
+}
+
+.formLabel {
+  font-weight: 600;
+  color: #555;
+}
+
+.formControl {
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.formSelect {
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.addButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.cancelButton {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.addButton:hover,
+.cancelButton:hover {
+  opacity: 0.9;
+}
