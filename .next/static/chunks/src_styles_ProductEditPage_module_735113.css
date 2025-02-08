@@ -2,7 +2,7 @@
 .ProductEditPage-module__JQPX6q__pageTitle {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .ProductEditPage-module__JQPX6q__innerCard {
@@ -132,7 +132,7 @@
 }
 
 .ProductEditPage-module__JQPX6q__addProductButton {
-  background: #ff6b81;
+  background-color: #ff0084;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -141,22 +141,35 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color .3s, transform .2s;
-  margin-top: 25px;
-  z-index: 99999;
+  margin-top: 20px;
 }
 
 .ProductEditPage-module__JQPX6q__addProductButton:hover {
-  background: #e04f72 !important;
+  transform: scale(1.05);
+  background-color: #b30080 !important;
 }
 
-.ProductEditPage-module__JQPX6q__addProductButton:focus {
-  background: #e04f72 !important;
+.ProductEditPage-module__JQPX6q__addProductButton:active, .ProductEditPage-module__JQPX6q__addtButton:focus {
+  background-color: #b30080 !important;
 }
 
 .ProductEditPage-module__JQPX6q__addProductWrapper {
   display: flex;
   justify-content: center;
+  margin-top: 5px;
+}
+
+.ProductEditPage-module__JQPX6q__cancelButton {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color .3s, transform .2s;
   margin-top: 20px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=src_styles_ProductEditPage_module_735113.css.map*/

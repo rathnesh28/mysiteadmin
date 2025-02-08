@@ -3,14 +3,14 @@
   background-color: #1f1f2f;
   color: #fff;
   width: 250px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   position: fixed;
   top: 70px;
   left: 0;
-  transition: width .3s, top .3s;
+  transition: width .3s;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
   z-index: 1010;
 }
 
@@ -31,6 +31,7 @@
 .Sidebar-module__HPbxHa__navLink {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 15px;
   text-decoration: none;
   color: #fff;
@@ -43,6 +44,7 @@
 
 .Sidebar-module__HPbxHa__navLink span {
   margin-left: 10px;
+  flex-grow: 1;
 }
 
 .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed .Sidebar-module__HPbxHa__navLink span {
@@ -51,7 +53,29 @@
 
 .Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__active .Sidebar-module__HPbxHa__navLink {
   background-color: #ff6b81;
+}
+
+.Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__activeSub .Sidebar-module__HPbxHa__navLink {
+  background-color: #ffa7b3;
+}
+
+.Sidebar-module__HPbxHa__arrow {
+  font-size: 12px;
+}
+
+.Sidebar-module__HPbxHa__subNavList {
+  padding: 0 20px;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink {
+  font-size: 14px;
   color: #fff;
+  transition: background-color .3s;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink:hover {
+  background-color: #a5152a;
+  color: #cbcbcb;
 }
 
 @media (width <= 1024px) {
@@ -67,9 +91,13 @@
   .Sidebar-module__HPbxHa__navLink {
     padding: 12px;
   }
+
+  .Sidebar-module__HPbxHa__navLink span {
+    font-size: 12px;
+  }
 }
 
-@media (width <= 1024px) {
+@media (width <= 768px) {
   .Sidebar-module__HPbxHa__sidebar {
     display: none;
   }
@@ -77,15 +105,6 @@
   .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed {
     display: flex;
     width: 60px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink span {
-    font-size: 12px;
   }
 }
 
@@ -281,64 +300,101 @@
 
 
 /* [project]/src/styles/category.module.css [client] (css) */
-.category-module__hsh_yW__table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.category-module__hsh_yW__pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.category-module__hsh_yW__tableHeader th {
+  cursor: pointer;
+  user-select: none;
 }
 
 .category-module__hsh_yW__table th, .category-module__hsh_yW__table td {
-  border: 1px solid #ccc;
-  padding: 10px;
   text-align: center;
+  padding: 12px;
 }
 
-.category-module__hsh_yW__table th {
-  background-color: #007bff;
-  color: #fff;
-  font-weight: bold;
+.category-module__hsh_yW__statusBadge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.category-module__hsh_yW__table tr:nth-child(2n) {
-  background-color: #f9f9f9;
-}
-
-.category-module__hsh_yW__table tr:hover {
-  background-color: #f1f1f1;
-}
-
-.category-module__hsh_yW__editButton {
+.category-module__hsh_yW__statusBadge.category-module__hsh_yW__active {
   background-color: #4caf50;
   color: #fff;
-  border: none;
-  padding: 5px 10px;
+}
+
+.category-module__hsh_yW__statusBadge.category-module__hsh_yW__inactive {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.category-module__hsh_yW__actionButton {
+  font-size: 12px;
   margin-right: 5px;
-  border-radius: 3px;
-  cursor: pointer;
 }
 
-.category-module__hsh_yW__editButton:hover {
-  background-color: #45a049;
+.category-module__hsh_yW__table-responsive {
+  overflow-x: auto;
 }
 
-.category-module__hsh_yW__deleteButton {
-  background-color: #f11e1e;
+.category-module__hsh_yW__modalTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.category-module__hsh_yW__modalBody {
+  padding: 1.5rem;
+}
+
+.category-module__hsh_yW__formLabel {
+  font-weight: 600;
+  color: #555;
+}
+
+.category-module__hsh_yW__formControl {
+  border-radius: .25rem;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.category-module__hsh_yW__formSelect {
+  border-radius: .25rem;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.category-module__hsh_yW__modalFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.category-module__hsh_yW__addButton {
+  background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 5px 10px;
-  border-radius: 3px;
-  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
-.category-module__hsh_yW__deleteButton:hover {
-  background-color: #d11a1a;
+.category-module__hsh_yW__cancelButton {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
-.category-module__hsh_yW__noDataText {
-  text-align: center;
-  color: #777;
-  font-size: 16px;
-  padding: 20px 0;
+.category-module__hsh_yW__addButton:hover, .category-module__hsh_yW__cancelButton:hover {
+  opacity: .9;
 }
 
 

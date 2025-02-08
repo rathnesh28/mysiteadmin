@@ -259,9 +259,9 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/category' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/categories' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                        href: "/category",
+                        href: "/categories",
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["TbCategoryPlus"], {}, void 0, false, {
@@ -931,7 +931,9 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 __turbopack_export_value__({
   "addProductButton": "ProductEditPage-module__JQPX6q__addProductButton",
   "addProductWrapper": "ProductEditPage-module__JQPX6q__addProductWrapper",
+  "addtButton": "ProductEditPage-module__JQPX6q__addtButton",
   "blankPreviewBox": "ProductEditPage-module__JQPX6q__blankPreviewBox",
+  "cancelButton": "ProductEditPage-module__JQPX6q__cancelButton",
   "cardContainer": "ProductEditPage-module__JQPX6q__cardContainer",
   "container": "ProductEditPage-module__JQPX6q__container",
   "customFileInput": "ProductEditPage-module__JQPX6q__customFileInput",
@@ -1077,7 +1079,7 @@ const ProductEditPage = ()=>{
             className: "container mt-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].pageTitle} text-center mb-4`,
+                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].pageTitle} text-center mb-2`,
                     children: isEditing ? "Edit Product" : "Add Product"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/products/[id].js",
@@ -1492,7 +1494,7 @@ const ProductEditPage = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
                                                     fileName: "[project]/src/pages/products/[id].js",
                                                     lineNumber: 251,
-                                                    columnNumber: 1
+                                                    columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Form$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Group, {
                                                     controlId: "sideImages",
@@ -1744,16 +1746,28 @@ const ProductEditPage = ()=>{
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].addProductWrapper,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                        type: "submit",
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].addProductButton,
-                        children: isEditing ? "Update Product" : "Add Product"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/products/[id].js",
-                        lineNumber: 338,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                            variant: "secondary",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].cancelButton,
+                            onClick: ()=>router.push("/products"),
+                            children: "Cancel"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/products/[id].js",
+                            lineNumber: 338,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                            type: "submit",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$ProductEditPage$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].addProductButton,
+                            children: isEditing ? "Update Product" : "Add Product"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/products/[id].js",
+                            lineNumber: 341,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/pages/products/[id].js",
                     lineNumber: 337,
                     columnNumber: 9

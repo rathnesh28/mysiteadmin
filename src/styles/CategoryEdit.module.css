@@ -1,0 +1,174 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .heading {
+    text-align: center;
+    font-weight: bold;  
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .formControl {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+  
+  .submitBtn {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #ff6b81 !important; /* Force custom color */
+    color: white !important;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 18px;
+    box-shadow: none !important;
+  }
+  
+  .submitBtn:hover,
+  .submitBtn:focus,
+  .submitBtn:active {
+    background: #e04f72 !important;
+    transform: scale(1.02);
+    box-shadow: none !important;
+  }
+  
+  /* Image Upload Container */
+.imageUploadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px dashed #ccc; /* Dashed border */
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #fafafa; /* Light background */
+    position: relative;
+  }
+  
+  /* Hover Effect */
+  .imageUploadContainer:hover {
+    border-color: #ff6b81; /* Trendytie brand color */
+    background: #fff5f7; /* Light pink shade */
+  }
+  
+  /* Hidden File Input */
+  .customFileInput {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  /* Upload Icon */
+  .uploadIcon {
+    font-size: 3rem; /* Big icon */
+    color: #999; /* Subtle color */
+    transition: color 0.3s ease;
+  }
+  
+  /* Change color on hover */
+  .imageUploadContainer:hover .uploadIcon {
+    color: #ff6b81;
+  }
+  
+  /* Image Preview */
+  .imagePreview {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Upload Button */
+  .uploadButtonWrapper {
+    margin-top: 15px;
+  }
+  
+  .uploadButton {
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .uploadButton:hover {
+    background: #e04f72;
+    transform: scale(1.05);
+  }
+
+  
+  .addButton {
+    background-color: #ff0084; /* Primary blue */
+    color: white;
+    font-size: 18px; /* Bigger font */
+    font-weight: bold;
+    padding: 12px 24px; /* Larger padding */
+    border: none;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    
+  }
+  
+  .addButton:hover {
+    background-color: #b30080 !important; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight pop effect */
+  }
+  .addButton:active , .addtButton:focus {
+    background-color: #b30080 !important; /* Darker blue on hover */
+ 
+  }
+  
+  .addWrapper {
+    display: flex;
+    justify-content: center; /* Center the button */
+    margin-top: 5px; /* Add spacing above */
+    
+  }
+  
+  .cancelButton {
+    color: white;
+    font-size: 18px; /* Bigger font */
+    font-weight: bold;
+    padding: 12px 24px; /* Larger padding */
+    border: none;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    margin-right: 10px;
+  }

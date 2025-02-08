@@ -64,80 +64,27 @@ function Document() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Html"], {
         lang: "en",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Head"], {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "apple-touch-icon",
-                        sizes: "180x180",
-                        href: "/favicon/apple-touch-icon.png"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 7,
-                        columnNumber: 8
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        type: "image/png",
-                        sizes: "32x32",
-                        href: "/favicon/favicon-32x32.png"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 8,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        type: "image/png",
-                        sizes: "16x16",
-                        href: "/favicon/favicon-16x16.png"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 9,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "manifest",
-                        href: "/favicon/site.webmanifest"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 10,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        href: "/favicon/favicon.ico"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/pages/_document.js",
-                lineNumber: 6,
-                columnNumber: 8
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Head"], {}, void 0, false, {
                 fileName: "[project]/src/pages/_document.js",
-                lineNumber: 14,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("body", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Main"], {}, void 0, false, {
                         fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 16,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["NextScript"], {}, void 0, false, {
                         fileName: "[project]/src/pages/_document.js",
-                        lineNumber: 17,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/_document.js",
-                lineNumber: 15,
+                lineNumber: 7,
                 columnNumber: 7
             }, this)
         ]
@@ -154,22 +101,21 @@ function Document() {
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
 __turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
+    "default": (()=>App)
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_import__("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 ;
 ;
 ;
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Component, {
         ...pageProps
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 10
     }, this);
 }
-const __TURBOPACK__default__export__ = MyApp;
 }}),
 "[project]/src/styles/Sidebar.module.css [ssr] (css module)": ((__turbopack_context__) => {
 
@@ -177,11 +123,14 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 __turbopack_export_value__({
   "active": "Sidebar-module__HPbxHa__active",
+  "activeSub": "Sidebar-module__HPbxHa__activeSub",
+  "arrow": "Sidebar-module__HPbxHa__arrow",
   "collapsed": "Sidebar-module__HPbxHa__collapsed",
   "navItem": "Sidebar-module__HPbxHa__navItem",
   "navLink": "Sidebar-module__HPbxHa__navLink",
   "navList": "Sidebar-module__HPbxHa__navList",
   "sidebar": "Sidebar-module__HPbxHa__sidebar",
+  "subNavList": "Sidebar-module__HPbxHa__subNavList",
 });
 }}),
 "[externals]/fs [external] (fs, cjs)": (function(__turbopack_context__) {
@@ -247,7 +196,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
     const [showReports, setShowReports] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false); // State to toggle the reports dropdown
     const toggleReportsDropdown = ()=>setShowReports(!showReports);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].sidebar} ${isCollapsed ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].collapsed : ''} mt-1`,
+        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].sidebar} ${isCollapsed ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].collapsed : ''}`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navList,
             children: [
@@ -259,25 +208,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaTachometerAlt"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 24,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Dashboard"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 25,
+                                lineNumber: 38,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 23,
+                        lineNumber: 36,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 20,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -288,54 +237,54 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaShoppingCart"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 32,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Orders"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 33,
+                                lineNumber: 48,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 31,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 28,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/category' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/categories' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                        href: "/category",
+                        href: "/categories",
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["TbCategoryPlus"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 40,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Category"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 41,
+                                lineNumber: 58,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 39,
+                        lineNumber: 56,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 36,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -346,25 +295,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaShoppingBag"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 48,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Products"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 49,
+                                lineNumber: 68,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 47,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 44,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -375,25 +324,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["MdInventory2"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 56,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Inventory"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 57,
+                                lineNumber: 78,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 55,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 52,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -404,25 +353,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["BsFillPeopleFill"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 64,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Customers"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 65,
+                                lineNumber: 88,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 63,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 60,
+                    lineNumber: 81,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -433,25 +382,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaShippingFast"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 72,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Shipping"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 73,
+                                lineNumber: 98,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 71,
+                        lineNumber: 96,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 68,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -462,25 +411,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["MdPayment"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 80,
+                                lineNumber: 107,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Payment"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 81,
+                                lineNumber: 108,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 79,
+                        lineNumber: 106,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 76,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -491,25 +440,25 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["BiSolidCoupon"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 88,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Coupons"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 89,
+                                lineNumber: 118,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 87,
+                        lineNumber: 116,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 84,
+                    lineNumber: 111,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -522,130 +471,138 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaChartLine"], {}, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 96,
+                                    lineNumber: 129,
                                     columnNumber: 13
                                 }, this),
                                 !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                     children: "Reports"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 97,
+                                    lineNumber: 130,
                                     columnNumber: 30
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].arrow} ${showReports ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
-                                    children: "↓"
+                                !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].arrow,
+                                    children: showReports ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaChevronUp"], {}, void 0, false, {
+                                        fileName: "[project]/src/components/Sidebar.js",
+                                        lineNumber: 133,
+                                        columnNumber: 32
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaChevronDown"], {}, void 0, false, {
+                                        fileName: "[project]/src/components/Sidebar.js",
+                                        lineNumber: 133,
+                                        columnNumber: 50
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 99,
-                                    columnNumber: 13
+                                    lineNumber: 132,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Sidebar.js",
-                            lineNumber: 95,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this),
                         showReports && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].subNavList,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/sales' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/sales' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].activeSub : ''}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                         href: "/reports/sales",
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaShoppingCart"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 105,
+                                                lineNumber: 145,
                                                 columnNumber: 19
                                             }, this),
                                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                 children: "Sales Report"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 106,
+                                                lineNumber: 146,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Sidebar.js",
-                                        lineNumber: 104,
+                                        lineNumber: 144,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 103,
+                                    lineNumber: 139,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/profit' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/profit' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].activeSub : ''}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                         href: "/reports/profit",
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaChartLine"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 111,
+                                                lineNumber: 155,
                                                 columnNumber: 19
                                             }, this),
                                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                 children: "Profit Report"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 112,
+                                                lineNumber: 156,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Sidebar.js",
-                                        lineNumber: 110,
+                                        lineNumber: 154,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 109,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/gst' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
+                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/reports/gst' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].activeSub : ''}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                         href: "/reports/gst",
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaChartLine"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 117,
+                                                lineNumber: 165,
                                                 columnNumber: 19
                                             }, this),
                                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                 children: "GST Report"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Sidebar.js",
-                                                lineNumber: 118,
+                                                lineNumber: 166,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Sidebar.js",
-                                        lineNumber: 116,
+                                        lineNumber: 164,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Sidebar.js",
-                                    lineNumber: 115,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Sidebar.js",
-                            lineNumber: 102,
+                            lineNumber: 138,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 94,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -656,36 +613,36 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaCog"], {}, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 129,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, this),
                             !isCollapsed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: "Settings"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar.js",
-                                lineNumber: 130,
+                                lineNumber: 180,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar.js",
-                        lineNumber: 128,
+                        lineNumber: 178,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Sidebar.js",
-                    lineNumber: 125,
+                    lineNumber: 173,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.js",
-            lineNumber: 19,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Sidebar.js",
-        lineNumber: 17,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 };

@@ -1,0 +1,182 @@
+/* Existing styles (no changes here) */
+.pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.innerCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 100%; /* Ensures all inner cards have equal height */
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer {
+  background: none;
+  box-shadow: none !important;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Image Upload Container */
+.imageUploadContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blank preview box when no image is selected */
+.blankPreviewBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa; /* Subtle color */
+}
+
+/* Image Preview Wrapper */
+.imagePreviewWrapper {
+  width: 200px; /* Set fixed width */
+  height: 200px; /* Set fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc; /* Dashed border */
+  border-radius: 10px;
+  background-color: #f8f8f8; /* Light gray background */
+  cursor: pointer; /* Clickable */
+  overflow: hidden;
+}
+
+/* Image Preview */
+.imagePreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes sure image fits properly */
+  border-radius: 10px;
+}
+
+/* Custom File Input (hidden) */
+.customFileInput {
+  display: none;
+}
+
+/* Upload Button Styling */
+.uploadButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; /* Optional margin above the button */
+}
+
+/* Icon inside blank preview box */
+.uploadIcon {
+  font-size: 3rem; /* Bigger icon */
+  color: #999; /* Subtle color */
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000; /* Subtle color */
+}
+
+.sideImageWrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideImagePreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* DELETE ICON STYLE */
+.deleteButton {
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  background: rgba(255, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deleteButton:hover {
+  background: rgba(255, 0, 0, 0);
+  color: rgb(132, 132, 132);
+}
+.addProductButton {
+  background-color: #ff0084; /* Primary blue */
+  color: white;
+  font-size: 18px; /* Bigger font */
+  font-weight: bold;
+  padding: 12px 24px; /* Larger padding */
+  border: none;
+  border-radius: 8px; /* Rounded edges */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  
+}
+
+.addProductButton:hover {
+  background-color: #b30080 !important; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight pop effect */
+}
+.addProductButton:active , .addtButton:focus {
+  background-color: #b30080 !important; /* Darker blue on hover */
+
+}
+
+.addProductWrapper {
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-top: 5px; /* Add spacing above */
+  
+}
+
+.cancelButton {
+  color: white;
+  font-size: 18px; /* Bigger font */
+  font-weight: bold;
+  padding: 12px 24px; /* Larger padding */
+  border: none;
+  border-radius: 8px; /* Rounded edges */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  margin-right: 10px;
+}

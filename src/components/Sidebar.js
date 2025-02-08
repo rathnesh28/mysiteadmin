@@ -50,10 +50,10 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
         </li>
         <li
           className={`${styles.navItem} ${
-            router.pathname === '/category' ? styles.active : ''
+            router.pathname === '/categories' ? styles.active : ''
           }`}
         >
-          <a href="/category" className={styles.navLink}>
+          <a href="/categories" className={styles.navLink}>
             <TbCategoryPlus />
             {!isCollapsed && <span>Category</span>}
           </a>

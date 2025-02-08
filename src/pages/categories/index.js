@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Layout from "@/components/Layout";
-import { Table, Button, InputGroup, FormControl, Dropdown, Modal, Form } from "react-bootstrap";
+import {
+  Table,
+  Button,
+  InputGroup,
+  FormControl,
+  Dropdown,
+} from "react-bootstrap";
 import PaginationComponent from "@/components/PaginationComponent";
-import styles from "../styles/category.module.css";
+import styles from "@/styles/category.module.css";
 
 const CategoryPage = () => {
+  const router = useRouter();
   const [categories, setCategories] = useState([]);
   const [filteredCategories, setFilteredCategories] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedFilter, setSelectedFilter] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(5); // Adjust items per page as needed
-  const [showModal, setShowModal] = useState(false);
-  const [newCategory, setNewCategory] = useState({ name: "", status: "Active" });
+  const itemsPerPage = 5; // Number of categories per page
 
+  // Fetch categories when component mounts
   useEffect(() => {
     const fetchCategories = () => {
       const fetchedCategories = [
@@ -30,17 +37,22 @@ const CategoryPage = () => {
     fetchCategories();
   }, []);
 
+  // Handle search
   const handleSearch = (event) => {
     const query = event.target.value.toLowerCase();
     setSearchQuery(query);
+
     const filtered = categories.filter(
       (category) =>
-        category.name.toLowerCase().includes(query) || category.id.toString().includes(query)
+        category.name.toLowerCase().includes(query) ||
+        category.id.toString().includes(query)
     );
+
     setFilteredCategories(filtered);
     setCurrentPage(1);
   };
 
+  // Handle status filter
   const handleFilter = (filter) => {
     setSelectedFilter(filter);
     const filtered = categories.filter((category) =>
@@ -50,28 +62,31 @@ const CategoryPage = () => {
     setCurrentPage(1);
   };
 
+  // Handle pagination
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
-  const handleShowModal = () => setShowModal(true);
-  const handleCloseModal = () => setShowModal(false);
-
-  const handleNewCategoryChange = (event) => {
-    const { name, value } = event.target;
-    setNewCategory((prev) => ({ ...prev, [name]: value }));
+  // Navigate to category edit page
+  const handleEditCategory = (categoryId) => {
+    router.push(`/categories/${categoryId}`);
   };
 
+  // Navigate to add new category page
   const handleAddCategory = () => {
-    const newId = categories.length ? categories[categories.length - 1].id + 1 : 1;
-    const newCategoryData = {
-      ...newCategory,
-      id: newId,
-      addedDate: new Date().toISOString().split("T")[0],
-    };
-    setCategories((prev) => [...prev, newCategoryData]);
-    setFilteredCategories((prev) => [...prev, newCategoryData]);
-    handleCloseModal();
+    router.push(`/categories/add`);
+  };
+
+  // Handle Delete Category
+  const handleDeleteCategory = (categoryId) => {
+    const confirmDelete = window.confirm(
+      "Are you sure you want to delete this category?"
+    );
+    if (!confirmDelete) return;
+
+    const updatedCategories = categories.filter((category) => category.id !== categoryId);
+    setCategories(updatedCategories);
+    setFilteredCategories(updatedCategories);
   };
 
   return (
@@ -91,22 +106,24 @@ const CategoryPage = () => {
             </InputGroup>
           </div>
 
-          <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">
-            <Dropdown onSelect={handleFilter} className="me-3">
-              <Dropdown.Toggle variant="outline-secondary" id="status-dropdown">
-                {selectedFilter || "Filter by Status"}
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item eventKey="">All</Dropdown.Item>
-                <Dropdown.Item eventKey="Active">Active</Dropdown.Item>
-                <Dropdown.Item eventKey="Inactive">Inactive</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+          <div className="col-12 col-md-6 d-flex justify-content-end align-items-center gap-3">
+              {/* Filter Dropdown */}
+              <Dropdown onSelect={handleFilter} className={styles.filterDropdown}>
+                <Dropdown.Toggle variant="light" className={styles.customDropdown}>
+                  {selectedFilter || "Filter by Status"}
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item eventKey="">All</Dropdown.Item>
+                  <Dropdown.Item eventKey="Active">Active</Dropdown.Item>
+                  <Dropdown.Item eventKey="Inactive">Inactive</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
 
-            <Button variant="primary" onClick={handleShowModal}>
-              Add New Category
-            </Button>
-          </div>
+              {/* Add Category Button */}
+              <Button className={styles.customAddBtn} onClick={handleAddCategory}>
+                + Add New Category
+              </Button>
+            </div>
         </div>
 
         {/* Table */}
@@ -144,13 +161,19 @@ const CategoryPage = () => {
                         </span>
                       </td>
                       <td>
-                        <Button variant="outline-info" size="sm" className={styles.actionButton}>
+                        <Button
+                          variant="outline-info"
+                          size="sm"
+                          className={styles.actionButton}
+                          onClick={() => handleEditCategory(category.id)}
+                        >
                           Edit
-                        </Button>
+                        </Button>{" "}
                         <Button
                           variant="outline-danger"
                           size="sm"
-                          className={`${styles.actionButton} ms-2`}
+                          className={styles.actionButton}
+                          onClick={() => handleDeleteCategory(category.id)}
                         >
                           Delete
                         </Button>
@@ -169,54 +192,6 @@ const CategoryPage = () => {
           currentPage={currentPage}
           onPageChange={handlePageChange}
         />
-
-        {/* Add Category Modal */}
-        <Modal show={showModal} onHide={handleCloseModal} centered>
-  <Modal.Header closeButton>
-    <Modal.Title className="modalTitle">Add New Category</Modal.Title>
-  </Modal.Header>
-  <Modal.Body className="modalBody">
-    <Form>
-      {/* Category Name */}
-      <Form.Group className="mb-3" controlId="formCategoryName">
-        <Form.Label className="formLabel">Category Name</Form.Label>
-        <Form.Control
-          type="text"
-          placeholder="Enter category name"
-          name="name"
-          value={newCategory.name}
-          onChange={handleNewCategoryChange}
-          className="formControl"
-          required
-        />
-      </Form.Group>
-
-      {/* Status */}
-      <Form.Group className="mb-3" controlId="formCategoryStatus">
-        <Form.Label className="formLabel">Status</Form.Label>
-        <Form.Select
-          name="status"
-          value={newCategory.status}
-          onChange={handleNewCategoryChange}
-          className="formSelect"
-          required
-        >
-          <option value="Active">Active</option>
-          <option value="Inactive">Inactive</option>
-        </Form.Select>
-      </Form.Group>
-    </Form>
-  </Modal.Body>
-  <Modal.Footer className="modalFooter">
-    <Button className="cancelButton" onClick={handleCloseModal}>
-      Cancel
-    </Button>
-    <Button className="addButton" onClick={handleAddCategory}>
-      Add Category
-    </Button>
-  </Modal.Footer>
-</Modal>
-
       </div>
     </Layout>
   );

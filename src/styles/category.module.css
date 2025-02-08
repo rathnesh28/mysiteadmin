@@ -1,9 +1,9 @@
 /* category.module.css */
 
 .pageTitle {
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 5px;
 }
 
 .tableHeader th {
@@ -76,7 +76,7 @@
 }
 
 .addButton {
-  background-color: #007bff;
+  background-color: #ffffff;
   color: white;
   border: none;
   font-weight: bold;
@@ -96,4 +96,35 @@
 .addButton:hover,
 .cancelButton:hover {
   opacity: 0.9;
+}
+
+/* Filter Dropdown */
+.filterDropdown .dropdown-toggle {
+  background: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.filterDropdown .dropdown-toggle:hover {
+  background: #ffbbbb;
+  border-color: #ffd6d6;
+}
+
+/* Add New Category Button */
+.customAddBtn {
+  background: #ff6b81; /* Color matching logo */
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.customAddBtn:hover , .customAddBtn:focus ,.customAddBtn:active {
+  background: #e04f72; /* Slightly darker shade */
+  transform: scale(1.05);
 }

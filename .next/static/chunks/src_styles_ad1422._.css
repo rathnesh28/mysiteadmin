@@ -380,9 +380,9 @@
 
 /* [project]/src/styles/category.module.css [client] (css) */
 .category-module__hsh_yW__pageTitle {
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 5px;
 }
 
 .category-module__hsh_yW__tableHeader th {
@@ -455,7 +455,7 @@
 }
 
 .category-module__hsh_yW__addButton {
-  background-color: #007bff;
+  background-color: #fff;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -474,6 +474,35 @@
 
 .category-module__hsh_yW__addButton:hover, .category-module__hsh_yW__cancelButton:hover {
   opacity: .9;
+}
+
+.category-module__hsh_yW__filterDropdown .category-module__hsh_yW__dropdown-toggle {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+}
+
+.category-module__hsh_yW__filterDropdown .category-module__hsh_yW__dropdown-toggle:hover {
+  background: #fbb;
+  border-color: #ffd6d6;
+}
+
+.category-module__hsh_yW__customAddBtn {
+  background: #ff6b81;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+  border: none;
+}
+
+.category-module__hsh_yW__customAddBtn:hover, .category-module__hsh_yW__customAddBtn:focus, .category-module__hsh_yW__customAddBtn:active {
+  background: #e04f72;
+  transform: scale(1.05);
 }
 
 

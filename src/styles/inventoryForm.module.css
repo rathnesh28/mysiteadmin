@@ -1,0 +1,72 @@
+/* styles/inventoryForm.module.css */
+.container {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .formControl {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  .addButton {
+    background-color: #ff0084; /* Primary blue */
+    color: white;
+    font-size: 18px; /* Bigger font */
+    font-weight: bold;
+    padding: 12px 24px; /* Larger padding */
+    border: none;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    
+  }
+  
+  .addButton:hover {
+    background-color: #b30080 !important; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight pop effect */
+  }
+  .addButton:active , .addtButton:focus {
+    background-color: #b30080 !important; /* Darker blue on hover */
+ 
+  }
+  
+  .addWrapper {
+    display: flex;
+    justify-content: center; /* Center the button */
+    margin-top: 5px; /* Add spacing above */
+    
+  }
+  
+  .cancelButton {
+    color: white;
+    font-size: 18px; /* Bigger font */
+    font-weight: bold;
+    padding: 12px 24px; /* Larger padding */
+    border: none;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    margin-right: 10px;
+  }

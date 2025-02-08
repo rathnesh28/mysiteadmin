@@ -11,5 +11,5 @@ runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_6322da._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-bootstrap_esm_3e59b6._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@restart_ui_cjs_2df9b5._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_e593ee._.js");
-runtime.loadChunk("server/chunks/ssr/_a0c536._.css");
+runtime.loadChunk("server/chunks/ssr/_7cd46c._.css");
 module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/src/pages/orders.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/src/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/src/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

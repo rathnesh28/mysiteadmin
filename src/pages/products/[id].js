@@ -93,7 +93,7 @@ const ProductEditPage = () => {
   return (
     <Layout>
       <div className="container mt-5">
-        <h2 className={`${styles.pageTitle} text-center mb-4`}>
+        <h2 className={`${styles.pageTitle} text-center mb-2`}>
           {isEditing ? "Edit Product" : "Add Product"}
         </h2>
 
@@ -248,7 +248,7 @@ const ProductEditPage = () => {
                       </label>
                     </div>
                   </Form.Group>
-<hr></hr>
+                  <hr></hr>
                   <Form.Group controlId="sideImages" className="mb-4">
                     <Form.Label className={styles.label}>Upload Additional Images</Form.Label>
                     <div className={styles.imageUploadContainer}>
@@ -335,6 +335,9 @@ const ProductEditPage = () => {
           </Card.Body>
         </Card>
         <div className={styles.addProductWrapper} >
+           <Button variant="secondary" className={styles.cancelButton} onClick={() => router.push("/products")}>
+              Cancel
+            </Button>
           <Button type="submit" className={styles.addProductButton}>
             {isEditing ? "Update Product" : "Add Product"}
           </Button>
