@@ -166,7 +166,7 @@ const CategoryEditPage = () => {
               Cancel
             </Button>
           <Button type="submit" className={styles.addButton}>
-            {isEditing ? "Update inventory" : "Add inventory"}
+            {isEditing ? "Update Category" : "Add Category"}
           </Button>
         </div>
           </Form>

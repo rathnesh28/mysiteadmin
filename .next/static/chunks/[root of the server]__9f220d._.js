@@ -1491,8 +1491,10 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
 __turbopack_export_value__({
-  "button": "product-module__XzZD-G__button",
   "cardContainer": "product-module__XzZD-G__cardContainer",
+  "customAddBtn": "product-module__XzZD-G__customAddBtn",
+  "dropdown-toggle": "product-module__XzZD-G__dropdown-toggle",
+  "filterDropdown": "product-module__XzZD-G__filterDropdown",
   "pageTitle": "product-module__XzZD-G__pageTitle",
 });
 }}),
@@ -1546,7 +1548,7 @@ const ProductPage = ()=>{
                 {
                     id: 1,
                     name: "Gold Necklace",
-                    price: "$100",
+                    price: "₹100",
                     category: "Necklaces",
                     status: "Active",
                     addedDate: "2024-12-20"
@@ -1611,19 +1613,20 @@ const ProductPage = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "col-md-6 d-flex justify-content-end",
+                            className: "col-12 col-md-6 d-flex justify-content-end align-items-center gap-3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
                                     onSelect: setSelectedCategory,
-                                    className: "me-3",
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$product$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].filterDropdown,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Toggle, {
-                                            variant: "outline-secondary",
+                                            variant: "light",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$product$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].customDropdown,
                                             children: selectedCategory || "Filter by Category"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/products/index.js",
                                             lineNumber: 74,
-                                            columnNumber: 15
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Menu, {
                                             children: [
@@ -1656,10 +1659,10 @@ const ProductPage = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$product$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].button,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$product$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].customAddBtn,
                                     variant: "primary",
                                     onClick: ()=>router.push("/products/add"),
-                                    children: "Add Product"
+                                    children: "+ Add Product"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/products/index.js",
                                     lineNumber: 86,

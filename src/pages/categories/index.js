@@ -18,7 +18,7 @@ const CategoryPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedFilter, setSelectedFilter] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5; // Number of categories per page
+  const [itemsPerPage] = useState(5);
 
   // Fetch categories when component mounts
   useEffect(() => {

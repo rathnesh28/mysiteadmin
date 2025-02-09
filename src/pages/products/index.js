@@ -20,7 +20,7 @@ const ProductPage = () => {
   useEffect(() => {
     // Mock fetch for product list
     const fetchedProducts = [
-      { id: 1, name: "Gold Necklace", price: "$100", category: "Necklaces", status: "Active", addedDate: "2024-12-20" },
+      { id: 1, name: "Gold Necklace", price: "₹100", category: "Necklaces", status: "Active", addedDate: "2024-12-20" },
       // Add more products here
     ];
     setProducts(fetchedProducts);
@@ -69,9 +69,9 @@ const ProductPage = () => {
               />
             </InputGroup>
           </div>
-          <div className="col-md-6 d-flex justify-content-end">
-            <Dropdown onSelect={setSelectedCategory} className="me-3">
-              <Dropdown.Toggle variant="outline-secondary">
+          <div className="col-12 col-md-6 d-flex justify-content-end align-items-center gap-3">
+            <Dropdown onSelect={setSelectedCategory}  className={styles.filterDropdown}>
+            <Dropdown.Toggle variant="light" className={styles.customDropdown}>
                 {selectedCategory || "Filter by Category"}
               </Dropdown.Toggle>
               <Dropdown.Menu>
@@ -83,8 +83,8 @@ const ProductPage = () => {
                 ))}
               </Dropdown.Menu>
             </Dropdown>
-            <Button className={styles.button} variant="primary" onClick={() => router.push("/products/add")}>
-              Add Product
+            <Button className={styles.customAddBtn} variant="primary" onClick={() => router.push("/products/add")}>
+              + Add Product
             </Button>
           </div>
         </div>

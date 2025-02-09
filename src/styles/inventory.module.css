@@ -4,49 +4,38 @@
     margin-bottom: 20px;
   }
   
-  .customModal .modal-content {
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: none;
-  }
   
-  .customModal .modal-header {
-    background-color: #f8f9fa;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  
-  .customModal .modal-title {
-    font-size: 20px;
-    font-weight: 600;
-  }
-  
-  .customModal .modal-body input,
-  .customModal .modal-body select {
-    border-radius: 8px;
-  }
-  
-  .customModal .modal-footer {
-    border-top: none;
-    padding-top: 0;
-  }
-  
-  .modal-dialog-centered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  .modalButtonPrimary {
-    background-color: #ff6b81 !important;
-    border-color: #ff6b81 !important;
-    color: #fff !important;
-  }
-  
-  .modalButtonPrimary:hover {
-    background-color: #e85a70 !important;
-    border-color: #e85a70 !important;
-  }
-  
+/* Filter Dropdown */
+.filterDropdown .dropdown-toggle {
+  background: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.filterDropdown .dropdown-toggle:hover {
+  background: #ffbbbb;
+  border-color: #ffd6d6;
+}
+
+/* Add New Category Button */
+.customAddBtn {
+  background: #ff6b81; /* Color matching logo */
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.customAddBtn:hover  {
+  background: #e04f72 !important; /* Slightly darker shade */
+  transform: scale(1.05);
+}
+.customAddBtn:focus ,.customAddBtn:active {
+  background: #e04f72 !important; /* Slightly darker shade */
+
+}

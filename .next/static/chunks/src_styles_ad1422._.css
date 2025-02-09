@@ -500,9 +500,13 @@
   border: none;
 }
 
-.category-module__hsh_yW__customAddBtn:hover, .category-module__hsh_yW__customAddBtn:focus, .category-module__hsh_yW__customAddBtn:active {
-  background: #e04f72;
+.category-module__hsh_yW__customAddBtn:hover {
   transform: scale(1.05);
+  background: #e04f72 !important;
+}
+
+.category-module__hsh_yW__customAddBtn:focus, .category-module__hsh_yW__customAddBtn:active {
+  background: #e04f72 !important;
 }
 
 

@@ -18,10 +18,10 @@ const InventoryPage = () => {
 
   useEffect(() => {
     const fetchedProducts = [
-      { id: 1, name: "Smartphone", purchasePrice: "$300", sellingPrice: "$500", category: "Electronics", discount: 10, stock: 50, status: "Active", addedDate: "2024-12-01" },
-      { id: 2, name: "Laptop", purchasePrice: "$800", sellingPrice: "$1200", category: "Electronics", discount: 5, stock: 30, status: "Active", addedDate: "2024-11-28" },
-      { id: 3, name: "Tablet", purchasePrice: "$200", sellingPrice: "$350", category: "Electronics", discount: 0, stock: 20, status: "Inactive", addedDate: "2024-12-05" },
-      { id: 4, name: "Headphones", purchasePrice: "$50", sellingPrice: "$100", category: "Accessories", discount: 15, stock: 100, status: "Active", addedDate: "2024-12-15" },
+      { id: 1, name: "Smartphone", purchasePrice: "₹300", sellingPrice: "₹500", category: "Electronics", discount: 10, stock: 50, status: "Active", addedDate: "2024-12-01" },
+      { id: 2, name: "Laptop", purchasePrice: "₹800", sellingPrice: "₹1200", category: "Electronics", discount: 5, stock: 30, status: "Active", addedDate: "2024-11-28" },
+      { id: 3, name: "Tablet", purchasePrice: "₹200", sellingPrice: "₹350", category: "Electronics", discount: 0, stock: 20, status: "Inactive", addedDate: "2024-12-05" },
+      { id: 4, name: "Headphones", purchasePrice: "₹50", sellingPrice: "₹100", category: "Accessories", discount: 15, stock: 100, status: "Active", addedDate: "2024-12-15" },
     ];
     setProducts(fetchedProducts);
     setFilteredProducts(fetchedProducts);
@@ -57,8 +57,8 @@ const InventoryPage = () => {
 
   const calculateDiscountedPrice = (product) => {
     if (product.discount) {
-      const discountedPrice = (parseFloat(product.sellingPrice.replace('$', '')) * (1 - product.discount / 100)).toFixed(2);
-      return `$${discountedPrice}`;
+      const discountedPrice = (parseFloat(product.sellingPrice.replace('₹', '')) * (1 - product.discount / 100)).toFixed(2);
+      return `₹${discountedPrice}`;
     }
     return product.sellingPrice;
   };
@@ -77,9 +77,9 @@ const InventoryPage = () => {
               />
             </InputGroup>
           </div>
-          <div className="col-md-6 d-flex justify-content-end">
-            <Dropdown onSelect={handleStatusFilter} className="me-3">
-              <Dropdown.Toggle variant="outline-secondary">
+          <div className="col-12 col-md-6 d-flex justify-content-end align-items-center gap-3">
+            <Dropdown onSelect={handleStatusFilter} className={styles.filterDropdown}>
+             <Dropdown.Toggle variant="light" className={styles.customDropdown}>
                 {selectedStatus || "Filter by Status"}
               </Dropdown.Toggle>
               <Dropdown.Menu>
@@ -91,8 +91,8 @@ const InventoryPage = () => {
                 ))}
               </Dropdown.Menu>
             </Dropdown>
-            <Button variant="primary" onClick={() => router.push("/products/add")}>
-                Add Product
+            <Button  className={styles.customAddBtn} variant="primary" onClick={() => router.push("/products/add")}>
+            + Add Product
             </Button>
           </div>
         </div>

@@ -124,7 +124,11 @@
   border: none;
 }
 
-.customAddBtn:hover , .customAddBtn:focus ,.customAddBtn:active {
-  background: #e04f72; /* Slightly darker shade */
+.customAddBtn:hover  {
+  background: #e04f72 !important; /* Slightly darker shade */
   transform: scale(1.05);
+}
+.customAddBtn:focus ,.customAddBtn:active {
+  background: #e04f72 !important; /* Slightly darker shade */
+
 }

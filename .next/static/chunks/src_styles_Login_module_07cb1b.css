@@ -39,7 +39,7 @@
 
 .Login-module__nHqgcW__subtitle {
   text-align: center;
-  color: #666;
+  color: #070707;
   margin-bottom: 1.5rem;
 }
 
@@ -100,6 +100,10 @@
   color: #ff6b81;
   text-decoration: none;
   font-weight: 600;
+}
+
+.Login-module__nHqgcW__footer p {
+  color: #616161;
 }
 
 .Login-module__nHqgcW__footer a:hover {

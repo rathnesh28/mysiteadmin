@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .formControl {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+  }
+  
+  .formControl:focus {
+    border-color: #ff0084;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 0, 132, 0.5);
+  }
+  
+  .addWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .addButton {
+    background-color: #ff0084;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #b30080;
+    transform: scale(1.05);
+  }
+  
+  .cancelButton {
+    background-color: #ccc;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .cancelButton:hover {
+    background-color: #999;
+    transform: scale(1.05);
+  }
+  
