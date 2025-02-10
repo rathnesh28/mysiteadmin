@@ -14,7 +14,7 @@
     "static/chunks/node_modules_react-icons_bs_index_mjs_4da0ce._.js",
     "static/chunks/node_modules_react-icons_bi_index_mjs_41d22a._.js",
     "static/chunks/node_modules_react-icons_lib_75a63d._.js",
-    "static/chunks/node_modules_react-bootstrap_esm_bec3bf._.js",
+    "static/chunks/node_modules_react-bootstrap_esm_f244c8._.js",
     "static/chunks/node_modules_@restart_ui_esm_c9f142._.js",
     "static/chunks/node_modules_xlsx_xlsx_mjs_f25f90._.js",
     "static/chunks/node_modules_@popperjs_core_lib_66de1a._.js",

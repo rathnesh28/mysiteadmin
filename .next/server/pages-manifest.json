@@ -1,17 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/customers": "pages/customers.js",
-  "/customers/[id]": "pages/customers/[id].js",
-  "/_error": "pages/_error.js",
-  "/categories": "pages/categories.js",
-  "/shipping": "pages/shipping.js",
-  "/dashboard": "pages/dashboard.js",
   "/orders": "pages/orders.js",
-  "/categories/[id]": "pages/categories/[id].js",
-  "/products": "pages/products.js",
-  "/products/[id]": "pages/products/[id].js",
-  "/inventory": "pages/inventory.js",
-  "/inventory/[id]": "pages/inventory/[id].js",
-  "/payment": "pages/payment.js"
+  "/orders/[id]": "pages/orders/[id].js"
 }

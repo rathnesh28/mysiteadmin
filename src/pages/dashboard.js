@@ -3,7 +3,7 @@ import { Card, Row, Col, Table } from "react-bootstrap";
 import {
   FaUsers,
   FaShoppingCart,
-  FaDollarSign,
+  FaRupeeSign ,
   FaBox,
   FaChartLine,
   FaExclamationTriangle,
@@ -95,7 +95,7 @@ const Dashboard = () => {
           {[
             { icon: <FaUsers />, title: "Customers", value: "1,234", color: "#4CAF50" },
             { icon: <FaShoppingCart />, title: "Orders", value: "567", color: "#2196F3" },
-            { icon: <FaDollarSign />, title: "Revenue", value: "₹12,345", color: "#FFC107" },
+            { icon: <FaRupeeSign  />, title: "Revenue", value: "₹12,345", color: "#FFC107" },
             { icon: <FaBox />, title: "Products", value: "456", color: "#FF5722" },
           ].map((stat, index) => (
             <Col key={index} xs={12} sm={6} md={3}>

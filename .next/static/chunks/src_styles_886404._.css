@@ -3,14 +3,14 @@
   background-color: #1f1f2f;
   color: #fff;
   width: 250px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   position: fixed;
   top: 70px;
   left: 0;
-  transition: width .3s, top .3s;
+  transition: width .3s;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
   z-index: 1010;
 }
 
@@ -31,6 +31,7 @@
 .Sidebar-module__HPbxHa__navLink {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 15px;
   text-decoration: none;
   color: #fff;
@@ -43,6 +44,7 @@
 
 .Sidebar-module__HPbxHa__navLink span {
   margin-left: 10px;
+  flex-grow: 1;
 }
 
 .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed .Sidebar-module__HPbxHa__navLink span {
@@ -51,7 +53,29 @@
 
 .Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__active .Sidebar-module__HPbxHa__navLink {
   background-color: #ff6b81;
+}
+
+.Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__activeSub .Sidebar-module__HPbxHa__navLink {
+  background-color: #ffa7b3;
+}
+
+.Sidebar-module__HPbxHa__arrow {
+  font-size: 12px;
+}
+
+.Sidebar-module__HPbxHa__subNavList {
+  padding: 0 20px;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink {
+  font-size: 14px;
   color: #fff;
+  transition: background-color .3s;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink:hover {
+  background-color: #a5152a;
+  color: #cbcbcb;
 }
 
 @media (width <= 1024px) {
@@ -67,9 +91,13 @@
   .Sidebar-module__HPbxHa__navLink {
     padding: 12px;
   }
+
+  .Sidebar-module__HPbxHa__navLink span {
+    font-size: 12px;
+  }
 }
 
-@media (width <= 1024px) {
+@media (width <= 768px) {
   .Sidebar-module__HPbxHa__sidebar {
     display: none;
   }
@@ -77,15 +105,6 @@
   .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed {
     display: flex;
     width: 60px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink span {
-    font-size: 12px;
   }
 }
 
@@ -284,7 +303,7 @@
 .order-module___NpaPW__pageTitle {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #fff;
 }
 
 .order-module___NpaPW__tableHeader th {
@@ -343,6 +362,11 @@
   .order-module___NpaPW__col-md-6, .order-module___NpaPW__col-md-3 {
     margin-bottom: 15px;
   }
+}
+
+.order-module___NpaPW__downloadbtn {
+  background-color: #ff6b81;
+  color: #fff;
 }
 
 

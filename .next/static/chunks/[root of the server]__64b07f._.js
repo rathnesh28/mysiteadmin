@@ -1661,13 +1661,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/Layout.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/styles/order.module.css [client] (css module)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DownloadComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/DownloadComponent.js [client] (ecmascript)"); // Import the download component
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PaginationComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/PaginationComponent.js [client] (ecmascript)"); // Import the Pagination Component
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DownloadComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/DownloadComponent.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PaginationComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/PaginationComponent.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$InputGroup$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputGroup$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/InputGroup.js [client] (ecmascript) <export default as InputGroup>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$FormControl$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControl$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/FormControl.js [client] (ecmascript) <export default as FormControl>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/Dropdown.js [client] (ecmascript) <export default as Dropdown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Table$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/Table.js [client] (ecmascript) <export default as Table>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/Button.js [client] (ecmascript) <export default as Button>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__ = __turbopack_import__("[project]/node_modules/react-bootstrap/esm/Dropdown.js [client] (ecmascript) <export default as Dropdown>");
 ;
 var _s = __turbopack_refresh__.signature();
 ;
@@ -1680,13 +1679,13 @@ const OrderPage = ()=>{
     _s();
     const [orders, setOrders] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [filteredOrders, setFilteredOrders] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [searchQuery, setSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
-    const [selectedStatus, setSelectedStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
-    const [sortField, setSortField] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('id');
-    const [sortOrder, setSortOrder] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('asc');
+    const [searchQuery, setSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [selectedStatus, setSelectedStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [sortField, setSortField] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("id");
+    const [sortOrder, setSortOrder] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("asc");
     const [currentPage, setCurrentPage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(1);
-    const [itemsPerPage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(10); // Set to 1 initially or any number you want
-    // Simulate fetching data from an API
+    const [itemsPerPage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(10);
+    // Simulated API Data
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "OrderPage.useEffect": ()=>{
             const fetchOrders = {
@@ -1724,48 +1723,25 @@ const OrderPage = ()=>{
             fetchOrders();
         }
     }["OrderPage.useEffect"], []);
-    // Paginate filtered orders
-    const paginatedOrders = filteredOrders.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
-    // Handle page change
-    const handlePageChange = (page)=>{
-        setCurrentPage(page);
-    };
     // Handle search
     const handleSearch = (event)=>{
         const query = event.target.value.toLowerCase();
         setSearchQuery(query);
         const filtered = orders.filter((order)=>order.customer.toLowerCase().includes(query) || order.id.toString().includes(query));
         setFilteredOrders(filtered);
-        setCurrentPage(1); // Reset to the first page when the search changes
+        setCurrentPage(1);
     };
-    // Handle status filter
-    const handleStatusFilter = (status)=>{
-        setSelectedStatus(status);
-        filterOrders(searchQuery, status);
+    // Handle status update
+    const handleStatusUpdate = (id, newStatus)=>{
+        const updatedOrders = orders.map((order)=>order.id === id ? {
+                ...order,
+                status: newStatus
+            } : order);
+        setOrders(updatedOrders);
+        setFilteredOrders(updatedOrders);
     };
-    // Filter orders based on search query and selected status
-    const filterOrders = (query, status)=>{
-        let filtered = orders.filter((order)=>{
-            const matchesSearch = order.customer.toLowerCase().includes(query.toLowerCase()) || order.id.toString().includes(query);
-            const matchesStatus = status ? order.status === status : true;
-            return matchesSearch && matchesStatus;
-        });
-        // Apply sorting to the filtered orders
-        filtered = filtered.sort((a, b)=>{
-            if (sortField === 'date') {
-                return sortOrder === 'asc' ? new Date(a.date) - new Date(b.date) : new Date(b.date) - new Date(a.date);
-            } else {
-                return sortOrder === 'asc' ? a.id - b.id : b.id - a.id;
-            }
-        });
-        setFilteredOrders(filtered);
-    };
-    // Handle sorting functionality
-    const handleSort = (field)=>{
-        setSortField(field);
-        setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-        filterOrders(searchQuery, selectedStatus);
-    };
+    // Paginate filtered orders
+    const paginatedOrders = filteredOrders.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mt-5",
@@ -1775,7 +1751,7 @@ const OrderPage = ()=>{
                     children: "Order Management"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/orders.js",
-                    lineNumber: 94,
+                    lineNumber: 65,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1790,98 +1766,37 @@ const OrderPage = ()=>{
                                     onChange: handleSearch
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/orders.js",
-                                    lineNumber: 100,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/orders.js",
-                                lineNumber: 99,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/orders.js",
-                            lineNumber: 98,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "col-12 col-md-6 d-flex justify-content-end align-items-center",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
-                                    onSelect: handleStatusFilter,
-                                    className: "me-3",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Toggle, {
-                                            variant: "outline-secondary",
-                                            id: "status-dropdown",
-                                            children: selectedStatus || 'Filter by Status'
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 112,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Menu, {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
-                                                    eventKey: "",
-                                                    children: "All"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/orders.js",
-                                                    lineNumber: 116,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
-                                                    eventKey: "Pending",
-                                                    children: "Pending"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/orders.js",
-                                                    lineNumber: 117,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
-                                                    eventKey: "Completed",
-                                                    children: "Completed"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/orders.js",
-                                                    lineNumber: 118,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
-                                                    eventKey: "Cancelled",
-                                                    children: "Cancelled"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/orders.js",
-                                                    lineNumber: 119,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 115,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/pages/orders.js",
-                                    lineNumber: 111,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DownloadComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    data: filteredOrders
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/orders.js",
-                                    lineNumber: 124,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DownloadComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                data: filteredOrders
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/orders.js",
+                                lineNumber: 79,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/orders.js",
-                            lineNumber: 109,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/orders.js",
-                    lineNumber: 97,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1900,78 +1815,62 @@ const OrderPage = ()=>{
                                             children: "Sl No."
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 133,
+                                            lineNumber: 88,
                                             columnNumber: 17
                                         }, this),
-                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                            onClick: ()=>handleSort('id'),
-                                            children: [
-                                                "Order ID ",
-                                                sortField === 'id' && (sortOrder === 'asc' ? '↑' : '↓')
-                                            ]
-                                        }, void 0, true, {
+                                            children: "Order ID"
+                                        }, void 0, false, {
                                             fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 134,
+                                            lineNumber: 89,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                             children: "Customer Name"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 137,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                            onClick: ()=>handleSort('date'),
-                                            children: [
-                                                "Date of Order ",
-                                                sortField === 'date' && (sortOrder === 'asc' ? '↑' : '↓')
-                                            ]
-                                        }, void 0, true, {
+                                            children: "Date of Order"
+                                        }, void 0, false, {
                                             fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 138,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                             children: "Status"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 141,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                            children: "Actions"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/orders.js",
-                                            lineNumber: 142,
+                                            lineNumber: 92,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/orders.js",
-                                    lineNumber: 132,
+                                    lineNumber: 87,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/orders.js",
-                                lineNumber: 131,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
                                 children: paginatedOrders.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                        colSpan: "6",
+                                        colSpan: "5",
                                         className: "text-center",
                                         children: "No data exists"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/orders.js",
-                                        lineNumber: 148,
+                                        lineNumber: 98,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/orders.js",
-                                    lineNumber: 147,
+                                    lineNumber: 97,
                                     columnNumber: 17
                                 }, this) : paginatedOrders.map((order, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                         children: [
@@ -1979,10 +1878,9 @@ const OrderPage = ()=>{
                                                 children: (currentPage - 1) * itemsPerPage + index + 1
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 155,
+                                                lineNumber: 105,
                                                 columnNumber: 21
                                             }, this),
-                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                 children: [
                                                     "#",
@@ -1990,120 +1888,124 @@ const OrderPage = ()=>{
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 156,
+                                                lineNumber: 106,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                 children: order.customer
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 157,
+                                                lineNumber: 107,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                 children: order.date
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 158,
+                                                lineNumber: 108,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].statusBadge} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"][order.status.toLowerCase()]}`,
-                                                    children: order.status
-                                                }, void 0, false, {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
+                                                    onSelect: (newStatus)=>handleStatusUpdate(order.id, newStatus),
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Toggle, {
+                                                            variant: "outline-secondary",
+                                                            size: "sm",
+                                                            children: order.status
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/pages/orders.js",
+                                                            lineNumber: 111,
+                                                            columnNumber: 25
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Menu, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
+                                                                    eventKey: "Pending",
+                                                                    children: "Pending"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/orders.js",
+                                                                    lineNumber: 115,
+                                                                    columnNumber: 27
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
+                                                                    eventKey: "Completed",
+                                                                    children: "Completed"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/orders.js",
+                                                                    lineNumber: 116,
+                                                                    columnNumber: 27
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Dropdown$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"].Item, {
+                                                                    eventKey: "Cancelled",
+                                                                    children: "Cancelled"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/orders.js",
+                                                                    lineNumber: 117,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/pages/orders.js",
+                                                            lineNumber: 114,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/pages/orders.js",
-                                                    lineNumber: 160,
+                                                    lineNumber: 110,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 159,
-                                                columnNumber: 21
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                        variant: "outline-info",
-                                                        size: "sm",
-                                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].actionButton}`,
-                                                        children: "View Details"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/orders.js",
-                                                        lineNumber: 165,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                        variant: "outline-success",
-                                                        size: "sm",
-                                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].actionButton} ms-2`,
-                                                        children: "Update Status"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/orders.js",
-                                                        lineNumber: 166,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                        variant: "outline-danger",
-                                                        size: "sm",
-                                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$order$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].actionButton} ms-2`,
-                                                        children: "Cancel"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/orders.js",
-                                                        lineNumber: 167,
-                                                        columnNumber: 23
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/pages/orders.js",
-                                                lineNumber: 164,
+                                                lineNumber: 109,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, order.id, true, {
                                         fileName: "[project]/src/pages/orders.js",
-                                        lineNumber: 154,
+                                        lineNumber: 104,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/orders.js",
-                                lineNumber: 145,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/orders.js",
-                        lineNumber: 130,
+                        lineNumber: 85,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/orders.js",
-                    lineNumber: 129,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PaginationComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                     totalItems: filteredOrders.length,
                     itemsPerPage: itemsPerPage,
                     currentPage: currentPage,
-                    onPageChange: handlePageChange
+                    onPageChange: setCurrentPage
                 }, void 0, false, {
                     fileName: "[project]/src/pages/orders.js",
-                    lineNumber: 177,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/orders.js",
-            lineNumber: 93,
+            lineNumber: 64,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/orders.js",
-        lineNumber: 92,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 };
-_s(OrderPage, "eht8sAs1+15gGEivtp5aO9kKFeg=");
+_s(OrderPage, "1yZyY6XzyuHSb4cnKGJTvOq3mqk=");
 _c = OrderPage;
 const __TURBOPACK__default__export__ = OrderPage;
 var _c;
@@ -2116,7 +2018,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-const PAGE_PATH = "/orders";
+const PAGE_PATH = "/payment";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{
