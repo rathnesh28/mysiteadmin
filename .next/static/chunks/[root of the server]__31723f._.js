@@ -8525,6 +8525,7 @@ const imageConfigDefault = {
     contentDispositionType: 'attachment',
     localPatterns: undefined,
     remotePatterns: [],
+    qualities: undefined,
     unoptimized: false
 }; //# sourceMappingURL=image-config.js.map
 }}),
@@ -18668,7 +18669,7 @@ const _shared = __turbopack_require__("[project]/node_modules/next/dist/client/r
 const _tracer = /*#__PURE__*/ _interop_require_default._(__turbopack_require__("[project]/node_modules/next/dist/client/tracing/tracer.js [client] (ecmascript)"));
 const _reporttosocket = /*#__PURE__*/ _interop_require_default._(__turbopack_require__("[project]/node_modules/next/dist/client/tracing/report-to-socket.js [client] (ecmascript)"));
 const _isnextroutererror = __turbopack_require__("[project]/node_modules/next/dist/client/components/is-next-router-error.js [client] (ecmascript)");
-const version = "15.1.0";
+const version = "15.1.6";
 let router;
 const emitter = (0, _mitt.default)();
 const looseToArray = (input)=>[].slice.call(input);
@@ -20845,9 +20846,8 @@ if ((typeof exports.default === 'function' || typeof exports.default === 'object
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-const e = new Error("Could not parse module '[project]/node_modules/next/error.js'");
-e.code = 'MODULE_UNPARSEABLE';
-throw e;}}),
+module.exports = __turbopack_require__("[project]/node_modules/next/dist/pages/_error.js [client] (ecmascript)");
+}}),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/node_modules/next/error.js [client] (ecmascript)\" } [client] (ecmascript)": (function(__turbopack_context__) {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;

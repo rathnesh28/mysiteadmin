@@ -1,14 +1,6 @@
 const CHUNK_PUBLIC_PATH = "server/pages/index.js";
 const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__6fa23e._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_aec3da._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_275a22._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_tb_index_mjs_0ec891._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_md_index_mjs_a52b9a._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_bs_index_mjs_111623._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_bi_index_mjs_1be2b1._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_6322da._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-bootstrap_esm_31a480._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_250ff7._.js");
-runtime.loadChunk("server/chunks/ssr/_02189b._.css");
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/src/pages/dashboard.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/src/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/src/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+runtime.loadChunk("server/chunks/ssr/node_modules_3d548d._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__bec1c7._.js");
+runtime.loadChunk("server/chunks/ssr/_0f029e._.css");
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/src/pages/index.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/src/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/src/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

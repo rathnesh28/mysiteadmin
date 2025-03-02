@@ -3,14 +3,14 @@
   background-color: #1f1f2f;
   color: #fff;
   width: 250px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   position: fixed;
   top: 70px;
   left: 0;
-  transition: width .3s, top .3s;
+  transition: width .3s;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
   z-index: 1010;
 }
 
@@ -31,6 +31,7 @@
 .Sidebar-module__HPbxHa__navLink {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 15px;
   text-decoration: none;
   color: #fff;
@@ -43,6 +44,7 @@
 
 .Sidebar-module__HPbxHa__navLink span {
   margin-left: 10px;
+  flex-grow: 1;
 }
 
 .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed .Sidebar-module__HPbxHa__navLink span {
@@ -51,7 +53,29 @@
 
 .Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__active .Sidebar-module__HPbxHa__navLink {
   background-color: #ff6b81;
+}
+
+.Sidebar-module__HPbxHa__navItem.Sidebar-module__HPbxHa__activeSub .Sidebar-module__HPbxHa__navLink {
+  background-color: #ffa7b3;
+}
+
+.Sidebar-module__HPbxHa__arrow {
+  font-size: 12px;
+}
+
+.Sidebar-module__HPbxHa__subNavList {
+  padding: 0 20px;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink {
+  font-size: 14px;
   color: #fff;
+  transition: background-color .3s;
+}
+
+.Sidebar-module__HPbxHa__subNavList .Sidebar-module__HPbxHa__navLink:hover {
+  background-color: #a5152a;
+  color: #cbcbcb;
 }
 
 @media (width <= 1024px) {
@@ -67,9 +91,13 @@
   .Sidebar-module__HPbxHa__navLink {
     padding: 12px;
   }
+
+  .Sidebar-module__HPbxHa__navLink span {
+    font-size: 12px;
+  }
 }
 
-@media (width <= 1024px) {
+@media (width <= 768px) {
   .Sidebar-module__HPbxHa__sidebar {
     display: none;
   }
@@ -77,15 +105,6 @@
   .Sidebar-module__HPbxHa__sidebar.Sidebar-module__HPbxHa__collapsed {
     display: flex;
     width: 60px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .Sidebar-module__HPbxHa__navLink span {
-    font-size: 12px;
   }
 }
 
@@ -281,7 +300,127 @@
 
 
 /* [project]/src/styles/payment.module.css [client] (css) */
+.payment-module__TTqjjG__container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 
+.payment-module__TTqjjG__pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payment-module__TTqjjG__paymentCard {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #0000001a;
+  padding: 20px;
+  background: #fff;
+}
+
+.payment-module__TTqjjG__paymentHeader {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  background: #f8f9fa;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.payment-module__TTqjjG__refundText {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.payment-module__TTqjjG__paymentText {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-module__TTqjjG__paymentText strong {
+  color: #212121;
+}
+
+.payment-module__TTqjjG__refundStatus {
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.payment-module__TTqjjG__refundPending {
+  background-color: #fc0;
+  color: #212121;
+}
+
+.payment-module__TTqjjG__refundProcessed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.payment-module__TTqjjG__notEligible {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.payment-module__TTqjjG__button {
+  font-size: 15px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.payment-module__TTqjjG__button:focus {
+  outline: none;
+}
+
+.payment-module__TTqjjG__buttonRefund {
+  background: #f09;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+.payment-module__TTqjjG__buttonRefund:hover, .payment-module__TTqjjG__buttonRefund:active, .payment-module__TTqjjG__buttonRefund:focus {
+  background: #a71d2a !important;
+}
+
+.payment-module__TTqjjG__buttonPink {
+  background-color: #ff1493;
+  border: 1px solid #ff1493;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.payment-module__TTqjjG__buttonPink:hover {
+  background-color: #e60073;
+  border-color: #e60073;
+}
+
+@media (width <= 768px) {
+  .payment-module__TTqjjG__container {
+    padding: 15px;
+  }
+
+  .payment-module__TTqjjG__paymentCard {
+    padding: 15px;
+  }
+
+  .payment-module__TTqjjG__paymentText {
+    font-size: 14px;
+  }
+
+  .payment-module__TTqjjG__button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
 
 
 /*# sourceMappingURL=src_styles_998076._.css.map*/

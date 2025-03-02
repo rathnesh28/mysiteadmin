@@ -13,4 +13,79 @@
   border-color: #ffd6d6;
 }
 
+.order-module___NpaPW__statusDropdown {
+  min-width: 130px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  transition: all .3s ease-in-out;
+  border: none;
+}
+
+.order-module___NpaPW__statusDropdown:hover {
+  opacity: .85;
+}
+
+.order-module___NpaPW__pending.order-module___NpaPW__statusDropdown {
+  background-color: #fc0;
+  color: #663d00;
+}
+
+.order-module___NpaPW__shipped.order-module___NpaPW__statusDropdown {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.order-module___NpaPW__delivered.order-module___NpaPW__statusDropdown {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.order-module___NpaPW__cancelled.order-module___NpaPW__statusDropdown {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.order-module___NpaPW__dropdownMenu {
+  min-width: 180px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px #0000001a;
+  padding: 8px 0;
+}
+
+.order-module___NpaPW__dropdownItem {
+  font-size: 14px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: background-color .2s ease-in-out;
+  color: #333;
+  background: #fff;
+}
+
+.order-module___NpaPW__pendingIcon {
+  color: #fc0;
+}
+
+.order-module___NpaPW__shippedIcon {
+  color: #17a2b8;
+}
+
+.order-module___NpaPW__deliveredIcon {
+  color: #28a745;
+}
+
+.order-module___NpaPW__cancelledIcon {
+  color: #dc3545;
+}
+
+.order-module___NpaPW__dropdownItem:hover {
+  background-color: #f8f9fa;
+}
+
 /*# sourceMappingURL=src_styles_order_module_735113.css.map*/

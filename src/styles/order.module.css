@@ -13,3 +13,84 @@
   background: #ffbbbb;
   border-color: #ffd6d6;
 }
+
+/* 🎨 Status Dropdown Button Styling */
+.statusDropdown {
+  min-width: 130px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.statusDropdown:hover {
+  opacity: 0.85;
+}
+
+/* ✅ Status Button Colors */
+.pending.statusDropdown {
+  background-color: #ffcc00;
+  color: #663d00;
+}
+
+.shipped.statusDropdown {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.delivered.statusDropdown {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.cancelled.statusDropdown {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/* 📋 Dropdown Menu */
+.dropdownMenu {
+  min-width: 180px;
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  border-radius: 6px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+}
+
+/* 🎨 Dropdown Items */
+.dropdownItem {
+  font-size: 14px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+  color: #333; /* Dark text */
+  background: #fff; /* Ensure white background */
+}
+
+/* 🖍️ Icon Colors */
+.pendingIcon {
+  color: #ffcc00;
+}
+
+.shippedIcon {
+  color: #17a2b8;
+}
+
+.deliveredIcon {
+  color: #28a745;
+}
+
+.cancelledIcon {
+  color: #dc3545;
+}
+
+/* 🌟 Hover Effects */
+.dropdownItem:hover {
+  background-color: #f8f9fa;
+}

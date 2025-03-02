@@ -406,7 +406,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                     className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/payment' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].active : ''}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                        href: "/payment",
+                        href: "/payments",
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].navLink,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["MdPayment"], {}, void 0, false, {

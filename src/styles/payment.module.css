@@ -1,150 +1,129 @@
-/* payment.module.css */
+/* General Page Styling */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 
-/* Page Title Styling */
 .pageTitle {
-    font-size: 1.8rem;
-    font-weight: bold;
-  
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+/* Payment Card Styling */
+.paymentCard {
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: white;
+}
+
+
+/* Card Header */
+.paymentHeader {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  background: #f8f9fa;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+.refundText {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Payment Details */
+.paymentText {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentText strong {
+  color: #212121;
+}
+
+/* Refund Status Styling */
+.refundStatus {
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.refundPending {
+  background-color: #ffcc00;
+  color: #212121;
+}
+
+.refundProcessed {
+  background-color: #28a745;
+  color: white;
+}
+
+.notEligible {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Buttons */
+.button {
+  font-size: 15px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.buttonRefund {
+  background: #ff0099;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.buttonRefund:hover ,.buttonRefund:active, .buttonRefund:focus {
+  background: #a71d2a !important;
+}
+.buttonPink {
+  background-color: #ff1493; /* Hot Pink */
+  border: 1px solid #ff1493;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.buttonPink:hover {
+  background-color: #e60073; /* Darker Pink */
+  border-color: #e60073;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
   }
   
-  /* Filters Section */
-  .filterGroup {
-    width: 900px;
-    margin-right: 10px;
+  .paymentCard {
+    padding: 15px;
   }
   
-  .filter {
-    display: inline-block;
-    width: auto;
-    margin-left: 10px;
-    height: 38px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    padding: 10px 20px;
+  .paymentText {
     font-size: 14px;
   }
-  
-  /* Table Styling */
-  .table {
-    margin-top: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .table th {
-    background-color: #f8f9fa;
-    color: #555;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .table td {
-    text-align: center;
-    padding: 10px;
-    vertical-align: middle;
-  }
-  
-  .table tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .table tr:hover {
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  /* Button Styling */
+
   .button {
     font-size: 14px;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+    padding: 6px 12px;
   }
-  
-  .button:focus {
-    outline: none;
-  }
-  
-  .buttonInfo {
-    background-color: #ff0080;
-    color: white;
-  }
-  
-  .buttonInfo:hover {
-    background-color: #ff6b81a5;
-  }
-  
-  .buttonDanger {
-    background-color: #ff0019;
-    color: white;
-  }
-  
-  .buttonDanger:hover {
-    background-color: #a71d2a;
-  }
-  
-
-  .button:disabled {
-    background-color: #ffcccc;
-    color: #212121;
-    cursor: not-allowed;
-  }
-  
-  /* Pagination */
-  .pagination {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .paginationItem {
-    list-style: none;
-    margin: 0 5px;
-  }
-  
-  .paginationButton {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 8px 12px;
-    background-color: white;
-    color: #007bff;
-    cursor: pointer;
-  }
-  
-  .paginationButton:hover {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .paginationActive .paginationButton {
-    background-color: #007bff;
-    color: white;
-    font-weight: bold;
-  }
-  
-  /* Modal Styling */
-  .modalHeader {
-    background-color: #f8f9fa;
-    color: #333;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .modalTitle {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .modalBody {
-    padding: 20px;
-    line-height: 1.6;
-  }
-  
-  .modalText {
-    margin: 5px 0;
-  }
-  
+}

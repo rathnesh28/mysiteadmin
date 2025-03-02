@@ -808,7 +808,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar })=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                     className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].navItem} ${router.pathname === '/payment' ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].active : ''}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "/payment",
+                        href: "/payments",
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Sidebar$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].navLink,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["MdPayment"], {}, void 0, false, {
@@ -1990,7 +1990,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-const PAGE_PATH = "/reports/gst";
+const PAGE_PATH = "/shipping";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{

@@ -152,18 +152,30 @@ const OrderPage = () => {
                       </span>
                     </td>
                     <td>
-                      <Dropdown onSelect={(status) => handleStatusChange(order.id, status)}>
-                        <Dropdown.Toggle variant="outline-secondary" size="sm">
-                          {order.orderStatus}
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu>
-                          <Dropdown.Item eventKey="Pending">Pending</Dropdown.Item>
-                          <Dropdown.Item eventKey="Shipped">Shipped</Dropdown.Item>
-                          <Dropdown.Item eventKey="Delivered">Delivered</Dropdown.Item>
-                          <Dropdown.Item eventKey="Cancelled">Cancelled</Dropdown.Item>
-                        </Dropdown.Menu>
-                      </Dropdown>
-                    </td>
+  <Dropdown onSelect={(status) => handleStatusChange(order.id, status)}>
+    <Dropdown.Toggle 
+      size="sm" 
+      className={`${styles.statusDropdown} ${styles[order.orderStatus.toLowerCase()]}`}
+    >
+      {order.orderStatus}
+    </Dropdown.Toggle>
+    <Dropdown.Menu className={styles.dropdownMenu}>
+      <Dropdown.Item eventKey="Pending" className={styles.dropdownItem}>
+        <span className={styles.pendingIcon}>🟡 Pending</span> 
+      </Dropdown.Item>
+      <Dropdown.Item eventKey="Shipped" className={styles.dropdownItem}>
+        <span className={styles.shippedIcon}>🚚 Shipped</span> 
+      </Dropdown.Item>
+      <Dropdown.Item eventKey="Delivered" className={styles.dropdownItem}>
+        <span className={styles.deliveredIcon}>✅ Delivered</span> 
+      </Dropdown.Item>
+      <Dropdown.Item eventKey="Cancelled" className={styles.dropdownItem}>
+        <span className={styles.cancelledIcon}>❌ Cancelled</span> 
+      </Dropdown.Item>
+    </Dropdown.Menu>
+  </Dropdown>
+</td>
+
                     <td>
                     <Button 
                         variant="outline-info" 

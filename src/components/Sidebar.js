@@ -103,7 +103,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
             router.pathname === '/payment' ? styles.active : ''
           }`}
         >
-          <a href="/payment" className={styles.navLink}>
+          <a href="/payments" className={styles.navLink}>
             <MdPayment />
             {!isCollapsed && <span>Payment</span>}
           </a>
