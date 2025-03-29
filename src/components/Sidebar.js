@@ -90,10 +90,10 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
         </li>
         <li
           className={`${styles.navItem} ${
-            router.pathname === '/shipping' ? styles.active : ''
+            router.pathname === '/shipment' ? styles.active : ''
           }`}
         >
-          <a href="/shipping" className={styles.navLink}>
+          <a href="/shipment" className={styles.navLink}>
             <FaShippingFast />
             {!isCollapsed && <span>Shipping</span>}
           </a>

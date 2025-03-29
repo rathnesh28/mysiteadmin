@@ -1,0 +1,95 @@
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group */
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  /* Form Labels */
+  .formGroup label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields and Selects */
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Dimensions Container for Side-by-Side Layout */
+  .dimensionsContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dimensionsContainer input {
+    flex: 1;
+  }
+  
+  /* Button Group */
+  .buttonGroup {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Aligns buttons vertically */
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 20px;
+    width: 100%; /* Ensures it takes full width */
+  }
+  x1
+  /* Buttons */
+  .buttonGroup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cancelButton {
+    background-color: #ccc;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .cancelButton:hover {
+    background-color: #b3b3b3;
+  }
+  
+  .saveButton {
+    background-color: #ff0084;
+    color: #fff;
+  }
+  
+  .saveButton:hover {
+    background-color: #b30080;
+  }
+  

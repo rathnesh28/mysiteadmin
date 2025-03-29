@@ -2,13 +2,11 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/dashboard": "pages/dashboard.js",
-  "/payment": "pages/payment.js",
-  "/_error": "pages/_error.js",
+  "/customers": "pages/customers.js",
+  "/shipment": "pages/shipment.js",
+  "/shipment/[id]": "pages/shipment/[id].js",
   "/payments": "pages/payments.js",
   "/payments/[id]": "pages/payments/[id].js",
-  "/orders": "pages/orders.js",
-  "/categories": "pages/categories.js",
-  "/inventory": "pages/inventory.js",
-  "/products": "pages/products.js",
-  "/shipping": "pages/shipping.js"
+  "/coupons": "pages/coupons.js",
+  "/_error": "pages/_error.js"
 }

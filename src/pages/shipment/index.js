@@ -6,7 +6,6 @@ import PaginationComponent from "@/components/PaginationComponent";
 import styles from "@/styles/shipping.module.css";
 import { useRouter } from "next/router";
 import jsPDF from "jspdf";
-import "jspdf-autotable"; // Ensure AutoTable is imported
 
 const ShipmentList = () => {
   const [shipments, setShipments] = useState([
@@ -27,7 +26,6 @@ const ShipmentList = () => {
     return <Badge bg={statusVariant[status] || "secondary"}>{status}</Badge>;
   };
 
-  // 📌 Reusable function for generating PDF
   const generatePDF = (shipment, type) => {
     try {
       console.log("Generating PDF for:", shipment);
@@ -46,24 +44,26 @@ const ShipmentList = () => {
       doc.text(`Tracking: ${shipment.tracking}`, 10, 90);
       doc.text(`ETA: ${shipment.eta}`, 10, 100);
 
-      if (type === "invoice") {
-        doc.text("Total Amount: $XX.XX", 10, 120);
-      }
-
-      // 📌 Debugging
       console.log("Saving PDF...");
 
-      // More reliable method to trigger download
-      const pdfBlob = doc.output("blob");
-      const blobUrl = URL.createObjectURL(pdfBlob);
-      const link = document.createElement("a");
-      link.href = blobUrl;
-      link.download = `${type}_${shipment.id}.pdf`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      doc.save(`${type}_${shipment.id}.pdf`);
     } catch (error) {
       console.error("Error generating PDF:", error);
+    }
+  };
+
+  const [deletedShipment, setDeletedShipment] = useState(null);
+
+  const deleteShipment = (id) => {
+    const shipmentToDelete = shipments.find(shipment => shipment.id === id);
+    setDeletedShipment(shipmentToDelete); // Save deleted shipment for undo
+    setShipments(shipments.filter(shipment => shipment.id !== id));
+  };
+
+  const undoDelete = () => {
+    if (deletedShipment) {
+      setShipments([...shipments, deletedShipment]);
+      setDeletedShipment(null); // Clear the deleted shipment after restoring
     }
   };
 
@@ -97,20 +97,46 @@ const ShipmentList = () => {
                 <td>{shipment.tracking}</td>
                 <td>{shipment.eta}</td>
                 <td>
-                  <Button variant="secondary" size="sm" className="me-1" onClick={() => router.push(`/shipment/${shipment.id}`)}>
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    className="me-1"
+                    onClick={() => router.push(`/shipment/${shipment.id}`)}
+                  >
                     <FaEdit />
                   </Button>
-                  <Button variant="danger" size="sm" className="me-1">
+                  <Button 
+                    variant="danger" 
+                    size="sm" 
+                    className="me-1" 
+                    onClick={() => deleteShipment(shipment.id)}
+                  >
                     <FaTrash />
                   </Button>
-                  <Button variant="warning" size="sm" className="me-1">
+
+                  <Button 
+                    variant="warning" 
+                    size="sm" 
+                    className="me-1" 
+                    onClick={undoDelete} 
+                    disabled={!deletedShipment}
+                  >
                     <FaUndo />
                   </Button>
-                  <Button variant="info" size="sm" className="me-1" onClick={() => generatePDF(shipment, "label")}>
-                    <FaTags /> Label
+                  <Button
+                    variant="info"
+                    size="sm"
+                    className="me-1"
+                    onClick={() => generatePDF(shipment, "label")}
+                  >
+                    <FaTags />
                   </Button>
-                  <Button variant="success" size="sm" onClick={() => generatePDF(shipment, "invoice")}>
-                    <FaFileInvoice /> Invoice
+                  <Button
+                    variant="success"
+                    size="sm"
+                    onClick={() => generatePDF(shipment, "invoice")}
+                  >
+                    <FaFileInvoice />
                   </Button>
                 </td>
               </tr>

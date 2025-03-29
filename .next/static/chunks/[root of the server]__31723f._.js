@@ -19069,9 +19069,7 @@ function doRender(input) {
                 callback,
                 onRootCommit
             ],
-            children: ("TURBOPACK compile-time truthy", 1) ? /*#__PURE__*/ (0, _jsxruntime.jsx)(_react.default.StrictMode, {
-                children: elem
-            }) : ("TURBOPACK unreachable", undefined)
+            children: ("TURBOPACK compile-time falsy", 0) ? ("TURBOPACK unreachable", undefined) : elem
         }));
     return renderPromise;
 }
